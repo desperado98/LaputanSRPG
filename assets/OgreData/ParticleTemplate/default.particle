@@ -1,0 +1,43 @@
+particle_system test/booster
+{
+    material       Examples/Flare
+    particle_width    15
+    particle_height   15
+    cull_each		  false
+    quota			 50
+	local_space		 true
+    billboard_type   point
+	
+    emitter Point
+    {
+		position -14 0 0
+        angle 3
+        emission_rate   45
+        time_to_live    0.4
+        direction       0 0 -1
+        velocity_min    30
+        velocity_max    40
+        colour_range_start  1 1 1
+        colour_range_end    1 0 0      
+    }
+
+	emitter Point
+    {
+		position 4 0 0
+        angle 3
+        emission_rate   45
+        time_to_live    0.4
+        direction       0 0 -1
+        velocity_min    30
+        velocity_max    40
+        colour_range_start  1 1 1
+        colour_range_end    1 0 0      
+    }
+
+    affector ColourFader
+    {
+		red +3
+		green -3
+		blue -15
+    }
+}

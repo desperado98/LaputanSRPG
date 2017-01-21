@@ -1,0 +1,345 @@
+<TextureLoadingDataList>
+    <Data>
+        <FrameDivideOneTextureLoadingData>
+            <ID>MyTest1</ID>
+            <Path>cruiser.png</Path>
+            <FrameTotalCount>0</FrameTotalCount>
+            <FrameHorizonCount>0</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameMultipleFileTextureLoadingData>
+            <ID>WalkingMarine</ID>
+            <Path>WalkingMarine</Path>
+        </FrameMultipleFileTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>additiveTest</ID>
+            <Path>additiveTest.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>beam</ID>
+            <Path>beam.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>beam2</ID>
+            <Path>beam2.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>black</ID>
+            <Path>black.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameMultipleFileTextureLoadingData>
+            <ID>button</ID>
+            <Path>button</Path>
+            <AnimationIntervalList>
+                <Step>0.5</Step>
+                <Step>2</Step>
+                <Step>0.5</Step>
+                <Step>3</Step>
+            </AnimationIntervalList>
+        </FrameMultipleFileTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>button2</ID>
+            <Path>UI.png</Path>
+            <FrameTotalCount>4</FrameTotalCount>
+            <FrameHorizonCount>4</FrameHorizonCount>
+            <RegionRect left="0" top="0" right="104" bottom="23"/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>cargoship</ID>
+            <Path>cargoship.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>carrier</ID>
+            <Path>carrier.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>cruiser</ID>
+            <Path>cruiser.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>destroyer</ID>
+            <Path>destroyer.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameMultipleFileTextureLoadingData>
+            <ID>explosion1</ID>
+            <Path>explosion1</Path>
+            <AnimationTime>1</AnimationTime>
+        </FrameMultipleFileTextureLoadingData>
+        <PackTextureLoadingData>
+            <ID>explosionPack</ID>
+            <Path>GenericSpace.png</Path>
+            <PackID>explosion1</PackID>
+            <RegionList>
+                <RegionRect left="1" top="1" right="65" bottom="49"/>
+                <RegionRect left="67" top="1" right="131" bottom="49"/>
+                <RegionRect left="133" top="1" right="197" bottom="49"/>
+                <RegionRect left="199" top="1" right="263" bottom="49"/>
+                <RegionRect left="265" top="1" right="329" bottom="49"/>
+                <RegionRect left="331" top="1" right="395" bottom="49"/>
+                <RegionRect left="1" top="51" right="65" bottom="99"/>
+                <RegionRect left="67" top="51" right="131" bottom="99"/>
+                <RegionRect left="133" top="51" right="197" bottom="99"/>
+                <RegionRect left="199" top="51" right="263" bottom="99"/>
+                <RegionRect left="265" top="51" right="329" bottom="99"/>
+                <RegionRect left="331" top="51" right="395" bottom="99"/>
+                <RegionRect left="1" top="101" right="65" bottom="149"/>
+                <RegionRect left="67" top="101" right="131" bottom="149"/>
+                <RegionRect left="133" top="101" right="197" bottom="149"/>
+                <RegionRect left="199" top="101" right="263" bottom="149"/>
+                <RegionRect left="265" top="101" right="329" bottom="149"/>
+                <RegionRect left="331" top="101" right="395" bottom="149"/>
+                <RegionRect left="1" top="151" right="65" bottom="199"/>
+                <RegionRect left="67" top="151" right="131" bottom="199"/>
+                <RegionRect left="133" top="151" right="197" bottom="199"/>
+                <RegionRect left="199" top="151" right="263" bottom="199"/>
+                <RegionRect left="265" top="151" right="329" bottom="199"/>
+                <RegionRect left="331" top="151" right="395" bottom="199"/>
+                <RegionRect left="1" top="201" right="65" bottom="249"/>
+                <RegionRect left="67" top="201" right="131" bottom="249"/>
+                <RegionRect left="133" top="201" right="197" bottom="249"/>
+                <RegionRect left="199" top="201" right="263" bottom="249"/>
+                <RegionRect left="265" top="201" right="329" bottom="249"/>
+                <RegionRect left="331" top="201" right="395" bottom="249"/>
+                <RegionRect left="1" top="251" right="65" bottom="299"/>
+                <RegionRect left="67" top="251" right="131" bottom="299"/>
+                <RegionRect left="133" top="251" right="197" bottom="299"/>
+                <RegionRect left="199" top="251" right="263" bottom="299"/>
+                <RegionRect left="265" top="251" right="329" bottom="299"/>
+                <RegionRect left="331" top="251" right="395" bottom="299"/>
+                <RegionRect left="1" top="301" right="65" bottom="349"/>
+                <RegionRect left="67" top="301" right="131" bottom="349"/>
+                <RegionRect left="133" top="301" right="197" bottom="349"/>
+                <RegionRect left="199" top="301" right="263" bottom="349"/>
+                <RegionRect left="265" top="301" right="329" bottom="349"/>
+                <RegionRect left="331" top="301" right="395" bottom="349"/>
+                <RegionRect left="1" top="351" right="65" bottom="399"/>
+                <RegionRect left="67" top="351" right="131" bottom="399"/>
+                <RegionRect left="133" top="351" right="197" bottom="399"/>
+                <RegionRect left="199" top="351" right="263" bottom="399"/>
+                <RegionRect left="265" top="351" right="329" bottom="399"/>
+                <RegionRect left="331" top="351" right="395" bottom="399"/>
+                <RegionRect left="1" top="401" right="65" bottom="449"/>
+                <RegionRect left="67" top="401" right="131" bottom="449"/>
+                <RegionRect left="133" top="401" right="197" bottom="449"/>
+                <RegionRect left="199" top="401" right="263" bottom="449"/>
+                <RegionRect left="265" top="401" right="329" bottom="449"/>
+                <RegionRect left="331" top="401" right="395" bottom="449"/>
+                <RegionRect left="1" top="451" right="65" bottom="499"/>
+                <RegionRect left="67" top="451" right="131" bottom="499"/>
+                <RegionRect left="133" top="451" right="197" bottom="499"/>
+                <RegionRect left="199" top="451" right="263" bottom="499"/>
+                <RegionRect left="265" top="451" right="329" bottom="499"/>
+                <RegionRect left="331" top="451" right="395" bottom="499"/>
+                <RegionRect left="1" top="501" right="65" bottom="549"/>
+                <RegionRect left="67" top="501" right="131" bottom="549"/>
+                <RegionRect left="133" top="501" right="197" bottom="549"/>
+                <RegionRect left="199" top="501" right="263" bottom="549"/>
+                <RegionRect left="265" top="501" right="329" bottom="549"/>
+                <RegionRect left="331" top="501" right="395" bottom="549"/>
+                <RegionRect left="1" top="551" right="65" bottom="599"/>
+                <RegionRect left="67" top="551" right="131" bottom="599"/>
+                <RegionRect left="133" top="551" right="197" bottom="599"/>
+                <RegionRect left="199" top="551" right="263" bottom="599"/>
+                <RegionRect left="265" top="551" right="329" bottom="599"/>
+                <RegionRect left="331" top="551" right="395" bottom="599"/>
+                <RegionRect left="1" top="601" right="65" bottom="649"/>
+                <RegionRect left="67" top="601" right="131" bottom="649"/>
+                <RegionRect left="133" top="601" right="197" bottom="649"/>
+                <RegionRect left="199" top="601" right="263" bottom="649"/>
+                <RegionRect left="265" top="601" right="329" bottom="649"/>
+                <RegionRect left="331" top="601" right="395" bottom="649"/>
+                <RegionRect left="1" top="651" right="65" bottom="699"/>
+                <RegionRect left="67" top="651" right="131" bottom="699"/>
+                <RegionRect left="133" top="651" right="197" bottom="699"/>
+                <RegionRect left="199" top="651" right="263" bottom="699"/>
+                <RegionRect left="265" top="651" right="329" bottom="699"/>
+                <RegionRect left="331" top="651" right="395" bottom="699"/>
+                <RegionRect left="1" top="701" right="65" bottom="749"/>
+                <RegionRect left="67" top="701" right="131" bottom="749"/>
+                <RegionRect left="133" top="701" right="197" bottom="749"/>
+                <RegionRect left="199" top="701" right="263" bottom="749"/>
+                <RegionRect left="265" top="701" right="329" bottom="749"/>
+                <RegionRect left="331" top="701" right="395" bottom="749"/>
+            </RegionList>
+            <AnimationTime>1</AnimationTime>
+        </PackTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>i_effect_rain_front</ID>
+            <Path>i_effect_rain_front.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>mega</ID>
+            <Path>ext/mega.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>monkey</ID>
+            <Path>c_monkey_walk@ch4.png</Path>
+            <FrameTotalCount>4</FrameTotalCount>
+            <FrameHorizonCount>4</FrameHorizonCount>
+            <RegionRect/>
+            <AnimationTime>2</AnimationTime>
+        </FrameDivideOneTextureLoadingData>
+        <PanelTextureLoadingData>
+            <ID>panel</ID>
+            <Path>UI.png</Path>
+            <ExtentRect left="5" top="5" right="5" bottom="5"/>
+            <RegionRect left="0" top="28" right="23" bottom="51"/>
+        </PanelTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>planet_1</ID>
+            <Path>planet_1.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>planet_14</ID>
+            <Path>planet_14.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>planet_2</ID>
+            <Path>planet_2.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>planet_3</ID>
+            <Path>planet_3.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>planet_4</ID>
+            <Path>planet_4.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>planet_8</ID>
+            <Path>planet_8.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>planet_9</ID>
+            <Path>planet_9.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>shuttlenoweps</ID>
+            <Path>shuttlenoweps.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>small_star_0</ID>
+            <Path>small_star_0.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>small_star_1</ID>
+            <Path>small_star_1.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>test_number</ID>
+            <Path>i_text_plus_number@ch11.png</Path>
+            <FrameTotalCount>11</FrameTotalCount>
+            <FrameHorizonCount>11</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>test_rect</ID>
+            <Path>UI.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect left="0" top="28" right="23" bottom="51"/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>wing_fighter</ID>
+            <Path>wing_fighter.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>wing_fighter_body1</ID>
+            <Path>wing_fighter_body1.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>wing_fighter_body2</ID>
+            <Path>wing_fighter_body2.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>wing_fighter_body3</ID>
+            <Path>wing_fighter_body3.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>wing_fighter_body4</ID>
+            <Path>wing_fighter_body4.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+        <FrameDivideOneTextureLoadingData>
+            <ID>wing_fighter_body5</ID>
+            <Path>wing_fighter_body5.png</Path>
+            <FrameTotalCount>1</FrameTotalCount>
+            <FrameHorizonCount>1</FrameHorizonCount>
+            <RegionRect/>
+        </FrameDivideOneTextureLoadingData>
+    </Data>
+</TextureLoadingDataList>

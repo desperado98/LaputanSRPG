@@ -1,0 +1,15 @@
+
+
+MainFont
+{
+	type 		truetype
+	source 		JejuMyeongjo.ttf
+	size 		24
+	resolution 	144
+	antialias_colour  false
+	character_space 10
+	code_points     33-166 45208-45209 45716-45717 52380-52381 51116-51117
+	text_file  myText1.xml myText2.xml 
+}
+
+

@@ -1,0 +1,268 @@
+
+
+//========================================================================================
+
+vertex_program Laputan/DefaultQuad_glsl_vs glsl
+{
+	source LaputanDefaultQuad_vs.glsl
+
+	default_params
+	{
+		param_named_auto worldViewProj worldviewproj_matrix
+	}
+}
+
+vertex_program Laputan/DefaultQuad_glsles_vs glsles
+{
+	source LaputanDefaultQuad_vs.glsl
+
+	default_params
+	{
+		param_named_auto worldViewProj worldviewproj_matrix
+	}
+}
+
+//========================================================================================
+fragment_program Laputan/DefaultQuad_FogOn_glsl_ps glsl
+{
+	source LaputanDefaultQuad_ps.glsl
+	preprocessor_defines FOG_ON=1
+}
+
+fragment_program Laputan/DefaultQuad_FogOn_glsles_ps glsles
+{
+	source LaputanDefaultQuad_ps.glsl
+	preprocessor_defines FOG_ON=1
+}
+
+//========================================================================================
+
+fragment_program Laputan/DefaultQuad_glsl_ps glsl
+{
+	source LaputanDefaultQuad_ps.glsl
+	preprocessor_defines FOG_ON=0
+}
+
+fragment_program Laputan/DefaultQuad_glsles_ps glsles
+{
+	source LaputanDefaultQuad_ps.glsl
+	preprocessor_defines FOG_ON=0
+}
+
+//========================================================================================
+
+
+//--------------------------------------------------------------
+// Unified GLSL Programs
+//--------------------------------------------------------------
+vertex_program Laputan/DefaultQuad_vs unified
+{
+	delegate Laputan/DefaultQuad_glsl_vs
+	delegate Laputan/DefaultQuad_glsles_vs
+}
+
+
+fragment_program Laputan/DefaultQuad_ps unified
+{
+	delegate Laputan/DefaultQuad_glsl_ps
+	delegate Laputan/DefaultQuad_glsles_ps
+}
+
+
+fragment_program Laputan/DefaultQuad_FogOn_ps unified
+{
+	delegate Laputan/DefaultQuad_FogOn_glsl_ps
+	delegate Laputan/DefaultQuad_FogOn_glsles_ps
+
+	default_params
+	{
+		param_named in_fog_data int 
+	}
+}
+
+material Laputan/DefaultQuad
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			depth_check off
+			scene_blend alpha_blend
+			cull_hardware none
+
+			vertex_program_ref Laputan/DefaultQuad_vs
+			{
+			}
+
+			fragment_program_ref Laputan/DefaultQuad_ps
+			{
+				param_named diffuse_texture int 0
+			}
+
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+
+//========================================================================================
+//========================================================================================
+
+
+
+vertex_program Laputan/DefaultLine_glsl_vs glsl
+{
+	source LaputanDefaultLine_vs.glsl
+
+	default_params
+	{
+		param_named_auto worldViewProj worldviewproj_matrix
+	}
+}
+
+vertex_program Laputan/DefaultLine_glsles_vs glsles
+{
+	source LaputanDefaultLine_vs.glsl
+
+	default_params
+	{
+		param_named_auto worldViewProj worldviewproj_matrix
+	}
+}
+
+//========================================================================================
+fragment_program Laputan/DefaultLine_glsl_ps glsl
+{
+	source LaputanDefaultLine_ps.glsl
+}
+
+fragment_program Laputan/DefaultLine_glsles_ps glsles
+{
+	source LaputanDefaultLine_ps.glsl
+}
+
+
+//--------------------------------------------------------------
+// Unified GLSL Programs
+//--------------------------------------------------------------
+vertex_program Laputan/DefaultLine_vs unified
+{
+	delegate Laputan/DefaultLine_glsl_vs
+	delegate Laputan/DefaultLine_glsles_vs
+}
+
+
+fragment_program Laputan/DefaultLine_ps unified
+{
+	delegate Laputan/DefaultLine_glsl_ps
+	delegate Laputan/DefaultLine_glsles_ps
+}
+
+
+material Laputan/DefaultLine
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			depth_check off
+			scene_blend alpha_blend
+			cull_hardware none
+
+			vertex_program_ref Laputan/DefaultLine_vs
+			{
+			}
+
+			fragment_program_ref Laputan/DefaultLine_ps
+			{
+			}
+
+			texture_unit
+			{
+			}
+		}
+	}
+}
+
+
+//============================================================================================
+
+vertex_program Laputan/DefaultMesh_glsl_vs glsl
+{
+	source LaputanDefaultMesh_vs.glsl
+
+	default_params
+	{
+		param_named_auto worldViewProj worldviewproj_matrix
+		param_named totalColor float4 1 1 1 1
+	}
+}
+
+vertex_program Laputan/DefaultMesh_glsles_vs glsles
+{
+	source LaputanDefaultMesh_vs.glsl
+
+	default_params
+	{
+		param_named_auto worldViewProj worldviewproj_matrix
+		param_named totalColor float4 1 1 1 1
+	}
+}
+//=========================================================
+
+fragment_program Laputan/DefaultMesh_glsl_ps glsl
+{
+	source LaputanDefaultMesh_ps.glsl
+}
+
+fragment_program Laputan/DefaultMesh_glsles_ps glsles
+{
+	source LaputanDefaultMesh_ps.glsl
+}
+
+//======================================================
+vertex_program Laputan/DefaultMesh_vs unified
+{
+	delegate Laputan/DefaultMesh_glsl_vs
+	delegate Laputan/DefaultMesh_glsles_vs
+}
+
+fragment_program Laputan/DefaultMesh_ps unified
+{
+	delegate Laputan/DefaultMesh_glsl_ps
+	delegate Laputan/DefaultMesh_glsles_ps
+}
+
+material Laputan/DefaultMesh
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			cull_hardware none
+			
+			vertex_program_ref Laputan/DefaultMesh_glsl_vs
+			{
+			}
+
+			fragment_program_ref Laputan/DefaultMesh_glsl_ps
+			{
+				param_named diffuseMap int 0
+			}
+
+			texture_unit
+			{
+				tex_address_mode clamp
+			}
+		}
+	}
+}

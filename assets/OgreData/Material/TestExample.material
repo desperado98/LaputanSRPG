@@ -1,0 +1,219 @@
+material Penguin
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			cull_hardware none
+			
+			texture_unit
+			{
+				texture penguin.jpg
+			}	
+
+		}
+	}
+}
+
+material razor
+{
+	technique
+	{
+		pass
+		{
+			//cull_hardware none
+			texture_unit
+			{
+				texture texmap2.jpg
+			}
+		}
+	}
+}
+
+material RZR-002
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			texture_unit
+			{
+				texture RZR-002.png
+			}
+		}
+	}
+}
+
+
+material Examples/Flare
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+			texture_unit
+			{
+				texture flare.png
+			}
+		}
+	}
+}
+material Examples/Flare2
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture flaretrail.png
+			}
+		}
+	}
+}
+
+material Material__25
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware anticlockwise
+			texture_unit
+			{
+				texture texmap2.jpg
+			}
+		}
+	}
+}
+
+material Examples/Robot
+{
+	// Hardware skinning technique
+	/*
+	technique
+	{
+		pass
+		{			
+			cull_hardware anticlockwise
+
+			vertex_program_ref Ogre/HardwareSkinningOneWeight
+			{
+				param_named_auto worldMatrix3x4Array world_matrix_array_3x4
+				param_named_auto viewProjectionMatrix viewproj_matrix
+				param_named_auto lightPos[0] light_position 0
+				param_named_auto lightPos[1] light_position 1
+				param_named_auto lightDiffuseColour[0] light_diffuse_colour 0
+				param_named_auto lightDiffuseColour[1] light_diffuse_colour 1
+				param_named_auto ambient ambient_light_colour
+			
+			}
+			// alternate shadow caster program
+			shadow_caster_vertex_program_ref Ogre/HardwareSkinningOneWeightShadowCaster
+			{
+				param_named_auto worldMatrix3x4Array world_matrix_array_3x4
+				param_named_auto viewProjectionMatrix viewproj_matrix
+				param_named_auto ambient ambient_light_colour
+			}
+
+			texture_unit
+			{
+				texture r2skin.jpg
+			}
+		}
+	}*/
+
+	// Software blending technique
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			lighting off
+			cull_hardware anticlockwise
+
+			texture_unit
+			{
+				texture r2skin.jpg
+			}
+		}
+	}
+}
+
+material Examples/Ninja
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware anticlockwise
+			texture_unit
+			{
+				texture nskingr.jpg
+			}
+		}
+	}
+}
+
+
+
+
+
+//======================================================
+
+vertex_program Test/CustomParameter_glsl_vs glsl
+{
+	source CustomParameter_vs.glsl
+
+	default_params
+	{
+		param_named_auto worldViewProj worldviewproj_matrix
+		param_named totalColor float4 1 1 1 1
+		param_named_auto customColor custom 0
+	}
+}
+
+fragment_program Test/CustomParameter_glsl_ps glsl
+{
+	source CustomParameter_ps.glsl
+}
+
+material Test/CustomParameter
+{
+	technique
+	{
+		pass
+		{			
+			cull_hardware anticlockwise
+			scene_blend alpha_blend
+			
+			vertex_program_ref Test/CustomParameter_glsl_vs
+			{
+			}
+
+			fragment_program_ref Test/CustomParameter_glsl_ps
+			{
+				param_named diffuseMap int 0
+			}
+
+			texture_unit
+			{
+				texture r2skin.jpg
+				tex_address_mode clamp
+			}
+		}
+	}
+}
