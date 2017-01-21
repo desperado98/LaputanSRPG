@@ -1,0 +1,1880 @@
+19:58:26: Creating resource group General
+19:58:26: Creating resource group Internal
+19:58:26: Creating resource group Autodetect
+19:58:26: SceneManagerFactory for type 'DefaultSceneManager' registered.
+19:58:26: Registering ResourceManager for type Material
+19:58:26: Registering ResourceManager for type Mesh
+19:58:26: Registering ResourceManager for type OldSkeleton
+19:58:26: MovableObjectFactory for type 'ParticleSystem' registered.
+19:58:26: ArchiveFactory for archive type FileSystem registered.
+19:58:26: ArchiveFactory for archive type Zip registered.
+19:58:26: ArchiveFactory for archive type EmbeddedZip registered.
+19:58:26: DDS codec registering
+19:58:26: FreeImage version: 3.15.3
+19:58:26: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+19:58:26: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic
+19:58:26: Registering ResourceManager for type HighLevelGpuProgram
+19:58:26: MovableObjectFactory for type 'Entity' registered.
+19:58:26: MovableObjectFactory for type 'Light' registered.
+19:58:26: MovableObjectFactory for type 'BillboardSet' registered.
+19:58:26: MovableObjectFactory for type 'ManualObject' registered.
+19:58:26: MovableObjectFactory for type 'BillboardChain' registered.
+19:58:26: MovableObjectFactory for type 'RibbonTrail' registered.
+19:58:26: OGRE EXCEPTION(6:FileNotFoundException): 'plugins.cfg' file not found! in ConfigFile::load at C:\Project\Ogre2D\ogre 2.X\OgreMain\src\OgreConfigFile.cpp (line 88)
+19:58:26: plugins.cfg not found, automatic plugin loading disabled.
+19:58:26: *-*-* OGRE Initialising
+19:58:26: *-*-* Version 2.0.0unstable (Tindalos)
+19:58:26: Created Log Window
+19:58:26: Loading library .\RenderSystem_GL
+19:58:26: Installing plugin: GL RenderSystem
+19:58:26: OpenGL Rendering Subsystem created.
+19:58:27: Plugin successfully installed
+19:58:27: Loading library .\Plugin_ParticleFX.dll
+19:58:27: Installing plugin: ParticleFX
+19:58:27: Particle Emitter Type 'Point' registered
+19:58:27: Particle Emitter Type 'Box' registered
+19:58:27: Particle Emitter Type 'Ellipsoid' registered
+19:58:27: Particle Emitter Type 'Cylinder' registered
+19:58:27: Particle Emitter Type 'Ring' registered
+19:58:27: Particle Emitter Type 'HollowEllipsoid' registered
+19:58:27: Particle Affector Type 'LinearForce' registered
+19:58:27: Particle Affector Type 'ColourFader' registered
+19:58:27: Particle Affector Type 'ColourFader2' registered
+19:58:27: Particle Affector Type 'ColourImage' registered
+19:58:27: Particle Affector Type 'ColourInterpolator' registered
+19:58:27: Particle Affector Type 'Scaler' registered
+19:58:27: Particle Affector Type 'Rotator' registered
+19:58:27: Particle Affector Type 'DirectionRandomiser' registered
+19:58:27: Particle Affector Type 'DeflectorPlane' registered
+19:58:27: Plugin successfully installed
+19:58:27: CPU Identifier & Features
+19:58:27: -------------------------
+19:58:27:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i5-3570K CPU @ 3.40GHz
+19:58:27:  *   Logical cores: 4
+19:58:27:  *      SSE: yes
+19:58:27:  *     SSE2: yes
+19:58:27:  *     SSE3: yes
+19:58:27:  *      MMX: yes
+19:58:27:  *   MMXEXT: yes
+19:58:27:  *    3DNOW: no
+19:58:27:  * 3DNOWEXT: no
+19:58:27:  *     CMOV: yes
+19:58:27:  *      TSC: yes
+19:58:27:  *      FPU: yes
+19:58:27:  *      PRO: yes
+19:58:27:  *       HT: no
+19:58:27: -------------------------
+19:58:27: *** Starting Win32GL Subsystem ***
+19:58:27: Registering ResourceManager for type Texture
+19:58:27: Creating resource group LaputanTexture
+19:58:27: Added resource location './assets/LaputanTexture/' of type 'FileSystem' to resource group 'LaputanTexture' with recursive option
+19:58:27: Creating resource group LaputanScript
+19:58:27: Added resource location './assets/LaputanScript/' of type 'FileSystem' to resource group 'LaputanScript' with recursive option
+19:58:27: Creating resource group LaputanSound
+19:58:27: Added resource location './assets/LaputanSound/' of type 'FileSystem' to resource group 'LaputanSound' with recursive option
+19:58:27: Creating resource group LaputanMaterial
+19:58:27: Added resource location './assets/LaputanMaterial/' of type 'FileSystem' to resource group 'LaputanMaterial' with recursive option
+19:58:27: Creating resource group LaputanDefault
+19:58:27: Added resource location './assets/OgreData/Material' of type 'FileSystem' to resource group 'LaputanDefault' with recursive option
+19:58:27: Removed resource location ./assets/OgreData/Mesh
+19:58:27: Added resource location './assets/OgreData/Mesh' of type 'FileSystem' to resource group 'LaputanDefault' with recursive option
+19:58:27: Removed resource location ./assets/OgreData/ParticleTemplate
+19:58:27: Added resource location './assets/OgreData/ParticleTemplate' of type 'FileSystem' to resource group 'LaputanDefault' with recursive option
+19:58:27: Removed resource location ./assets/OgreData/Shader
+19:58:27: Added resource location './assets/OgreData/Shader' of type 'FileSystem' to resource group 'LaputanDefault' with recursive option
+19:58:27: Removed resource location ./assets/OgreData/Texture
+19:58:27: Added resource location './assets/OgreData/Texture' of type 'FileSystem' to resource group 'LaputanDefault' with recursive option
+19:58:27: Removed resource location ./assets/OgreData/Font
+19:58:27: Added resource location './assets/OgreData/Font' of type 'FileSystem' to resource group 'LaputanDefault' with recursive option
+19:58:27: Removed resource location ./assets/LaputanConfig
+19:58:27: Added resource location './assets/LaputanConfig' of type 'FileSystem' to resource group 'LaputanDefault' with recursive option
+19:58:27: GLRenderSystem::_createRenderWindow "", 0x0 windowed  miscParams: externalWindowHandle=330334 
+19:58:27: GL_VERSION = 4.5.0 NVIDIA 376.19
+19:58:27: GL_VENDOR = NVIDIA Corporation
+19:58:27: GL_RENDERER = GeForce GTX 1060 6GB/PCIe/SSE2
+19:58:27: GL_EXTENSIONS = GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_import_sync_object GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap_triangles GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_shader_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NVX_multigpu_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum GL_WIN_swap_hint WGL_EXT_swap_control 
+19:58:27: Supported WGL extensions: WGL_ARB_buffer_region WGL_ARB_create_context WGL_ARB_create_context_profile WGL_ARB_create_context_robustness WGL_ARB_context_flush_control WGL_ARB_extensions_string WGL_ARB_make_current_read WGL_ARB_multisample WGL_ARB_pbuffer WGL_ARB_pixel_format WGL_ARB_pixel_format_float WGL_ARB_render_texture WGL_ATI_pixel_format_float WGL_EXT_colorspace WGL_EXT_create_context_es_profile WGL_EXT_create_context_es2_profile WGL_EXT_extensions_string WGL_EXT_framebuffer_sRGB WGL_EXT_pixel_format_packed_float WGL_EXT_swap_control WGL_EXT_swap_control_tear WGL_NVX_DX_interop WGL_NV_DX_interop WGL_NV_DX_interop2 WGL_NV_copy_image WGL_NV_delay_before_swap WGL_NV_float_buffer WGL_NV_multisample_coverage WGL_NV_render_depth_texture WGL_NV_render_texture_rectangle 
+19:58:27: ***************************
+19:58:27: *** GL Renderer Started ***
+19:58:27: ***************************
+19:58:27: Registering ResourceManager for type GpuProgram
+19:58:27: GLSL support detected
+19:58:27: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
+19:58:27: FBO PF_UNKNOWN depth/stencil support: D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_L8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_A8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_A4L4 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_BYTE_LA depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_B5G6R5 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_A2R10G10B10 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_A2B10G10R10 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_FLOAT16_RGB depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_FLOAT32_RGB depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_FLOAT16_R depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_FLOAT32_R depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_FLOAT16_GR depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_FLOAT32_GR depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: FBO PF_SHORT_RGB depth/stencil support: D0S0 D0S8 D16S0 D24S0 D32S0 Packed-D24S8 
+19:58:27: [GL] : Valid FBO targets PF_UNKNOWN PF_L8 PF_A8 PF_A4L4 PF_BYTE_LA PF_R5G6B5 PF_B5G6R5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R PF_FLOAT16_GR PF_FLOAT32_GR PF_SHORT_RGB 
+19:58:27: RenderSystem capabilities
+19:58:27: -------------------------
+19:58:27: RenderSystem Name: OpenGL Rendering Subsystem
+19:58:27: GPU Vendor: nvidia
+19:58:27: Device Name: GeForce GTX 1060 6GB/PCIe/SSE2
+19:58:27: Driver Version: 4.5.0.0
+19:58:27:  * Fixed function pipeline: yes
+19:58:27:  * Hardware generation of mipmaps: yes
+19:58:27:  * Texture blending: yes
+19:58:27:  * Anisotropic texture filtering: yes
+19:58:27:  * Dot product texture operation: yes
+19:58:27:  * Cube mapping: yes
+19:58:27:  * Hardware stencil buffer: yes
+19:58:27:    - Stencil depth: 8
+19:58:27:    - Two sided stencil support: yes
+19:58:27:    - Wrap stencil values: yes
+19:58:27:  * Hardware vertex / index buffers: yes
+19:58:27:  * 32-bit index buffers: yes
+19:58:27:  * Vertex programs: yes
+19:58:27:  * Number of floating-point constants for vertex programs: 1024
+19:58:27:  * Number of integer constants for vertex programs: 0
+19:58:27:  * Number of boolean constants for vertex programs: 0
+19:58:27:  * Fragment programs: yes
+19:58:27:  * Number of floating-point constants for fragment programs: 1024
+19:58:27:  * Number of integer constants for fragment programs: 0
+19:58:27:  * Number of boolean constants for fragment programs: 0
+19:58:27:  * Geometry programs: yes
+19:58:27:  * Number of floating-point constants for geometry programs: 2048
+19:58:27:  * Number of integer constants for geometry programs: 0
+19:58:27:  * Number of boolean constants for geometry programs: 0
+19:58:27:  * Tessellation Hull programs: no
+19:58:27:  * Number of floating-point constants for tessellation hull programs: 0
+19:58:27:  * Number of integer constants for tessellation hull programs: 0
+19:58:27:  * Number of boolean constants for tessellation hull programs: 0
+19:58:27:  * Tessellation Domain programs: no
+19:58:27:  * Number of floating-point constants for tessellation domain programs: 0
+19:58:27:  * Number of integer constants for tessellation domain programs: 0
+19:58:27:  * Number of boolean constants for tessellation domain programs: 0
+19:58:27:  * Compute programs: no
+19:58:27:  * Number of floating-point constants for compute programs: 0
+19:58:27:  * Number of integer constants for compute programs: 0
+19:58:27:  * Number of boolean constants for compute programs: 0
+19:58:27:  * Supported Shader Profiles: arbfp1 arbvp1 fp20 fp30 fp40 glsl glsl100 glsl110 glsl120 gp4fp gp4gp gp4vp gpu_fp gpu_gp gpu_vp nvgp4 vp30 vp40
+19:58:27:  * Texture Compression: yes
+19:58:27:    - DXT: yes
+19:58:27:    - VTC: yes
+19:58:27:    - PVRTC: no
+19:58:27:    - ATC: no
+19:58:27:    - ETC1: no
+19:58:27:    - ETC2: no
+19:58:27:    - BC4/BC5: no
+19:58:27:    - BC6H/BC7: no
+19:58:27:  * Scissor Rectangle: yes
+19:58:27:  * Hardware Occlusion Query: yes
+19:58:27:  * User clip planes: yes
+19:58:27:  * VET_UBYTE4 vertex element type: yes
+19:58:27:  * Infinite far plane projection: yes
+19:58:27:  * Hardware render-to-texture: yes
+19:58:27:  * Floating point textures: yes
+19:58:27:  * Non-power-of-two textures: yes
+19:58:27:  * 1d textures: yes
+19:58:27:  * Volume textures: yes
+19:58:27:  * Multiple Render Targets: 8
+19:58:27:    - With different bit depths: yes
+19:58:27:  * Point Sprites: yes
+19:58:27:  * Extended point parameters: yes
+19:58:27:  * Max Point Size: 2047
+19:58:27:  * Vertex texture fetch: yes
+19:58:27:  * Number of world matrices: 0
+19:58:27:  * Number of texture units: 16
+19:58:27:  * Stencil buffer depth: 8
+19:58:27:  * Number of vertex blend matrices: 0
+19:58:27:    - Max vertex textures: 32
+19:58:27:    - Vertex textures shared: yes
+19:58:27:  * Render to Vertex Buffer : yes
+19:58:27:  * Hardware Atomic Counters: no
+19:58:27:  * GL 1.5 without VBO workaround: no
+19:58:27:  * Frame Buffer objects: yes
+19:58:27:  * Frame Buffer objects (ARB extension): no
+19:58:27:  * Frame Buffer objects (ATI extension): no
+19:58:27:  * PBuffer support: yes
+19:58:27:  * GL 1.5 without HW-occlusion workaround: no
+19:58:27:  * Vertex Array Objects: no
+19:58:27:  * Separate shader objects: no
+19:58:27: DefaultWorkQueue('Root') initialising on thread main.
+19:58:27: Particle Renderer Type 'billboard' registered
+19:58:27: Registering ResourceManager for type Font
+19:58:27: Parsing scripts for resource group Autodetect
+19:58:27: Finished parsing scripts for resource group Autodetect
+19:58:27: Creating resources for group Autodetect
+19:58:27: All done
+19:58:27: Parsing scripts for resource group General
+19:58:27: Finished parsing scripts for resource group General
+19:58:27: Creating resources for group General
+19:58:27: All done
+19:58:27: Parsing scripts for resource group Internal
+19:58:27: Finished parsing scripts for resource group Internal
+19:58:27: Creating resources for group Internal
+19:58:27: All done
+19:58:27: Parsing scripts for resource group LaputanDefault
+19:58:27: Parsing script TestExample.material
+19:58:27: OGRE EXCEPTION(2:InvalidParametersException): Parameter called diffuseMap does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at C:\Project\Ogre2D\ogre 2.X\OgreMain\src\OgreGpuProgramParams.cpp (line 2214)
+19:58:27: Compiler error: invalid parameters in TestExample.material(209): setting of constant failed
+19:58:27: Parsing script default.particle
+19:58:27: Parsing script emitted_emitter.particle
+19:58:27: Parsing script Examples-Water.particle
+19:58:27: Parsing script Examples.particle
+19:58:27: Parsing script smoke.particle
+19:58:27: Parsing script MainFont.fontdef
+19:58:27: Finished parsing scripts for resource group LaputanDefault
+19:58:27: Creating resources for group LaputanDefault
+19:58:27: All done
+19:58:27: Parsing scripts for resource group LaputanMaterial
+19:58:27: Parsing script LaputanDefault.material
+19:58:28: Compiler error: invalid parameters in LaputanDefault.material(79): param_named and param_indexed properties requires at least 3 arguments
+19:58:28: OGRE EXCEPTION(2:InvalidParametersException): Parameter called diffuseMap does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at C:\Project\Ogre2D\ogre 2.X\OgreMain\src\OgreGpuProgramParams.cpp (line 2214)
+19:58:28: Compiler error: invalid parameters in LaputanDefault.material(259): setting of constant failed
+19:58:28: Finished parsing scripts for resource group LaputanMaterial
+19:58:28: Creating resources for group LaputanMaterial
+19:58:28: All done
+19:58:28: Parsing scripts for resource group LaputanScript
+19:58:28: Finished parsing scripts for resource group LaputanScript
+19:58:28: Creating resources for group LaputanScript
+19:58:28: All done
+19:58:28: Parsing scripts for resource group LaputanSound
+19:58:28: Finished parsing scripts for resource group LaputanSound
+19:58:28: Creating resources for group LaputanSound
+19:58:28: All done
+19:58:28: Parsing scripts for resource group LaputanTexture
+19:58:28: Finished parsing scripts for resource group LaputanTexture
+19:58:28: Creating resources for group LaputanTexture
+19:58:28: All done
+19:58:28: Font MainFont using texture size 1024x1024
+19:58:28: Info: Freetype returned null for character 32 in font MainFont
+19:58:28: Info: Freetype returned null for character 160 in font MainFont
+19:58:28: Texture: MainFontTexture: Loading 1 faces(PF_BYTE_LA,1024x1024x1) Internal format is PF_BYTE_LA,1024x1024x1.
+19:58:28: MovableObjectFactory for type 'SpriteLine' registered.
+19:58:28: MovableObjectFactory for type 'SpriteQuadCollection' registered.
+19:58:28: MovableObjectFactory for type 'SpriteQuad' registered.
+19:58:28: MovableObjectFactory for type 'SpriteButton' registered.
+19:58:28: MovableObjectFactory for type 'SpriteCheckBox' registered.
+19:58:28: MovableObjectFactory for type 'SpriteNumber' registered.
+19:58:28: MovableObjectFactory for type 'SpritePanel' registered.
+19:58:28: MovableObjectFactory for type 'SpriteScrollBar' registered.
+19:58:28: MovableObjectFactory for type 'SpriteText' registered.
+19:58:28: MovableObjectFactory for type 'SpriteListBox' registered.
+19:58:28: MovableObjectFactory for type 'SpriteMesh' registered.
+19:58:28: MovableObjectFactory for type 'SpriteParticleFx' registered.
+19:58:28: __LaputanInit	
+19:58:28: @@  __LaputanMain start  @@ 	
+19:58:28: 
+19:58:28: Texture: UI.png: Loading 1 faces(PF_R8G8B8,256x128x1) Internal format is PF_X8R8G8B8,256x128x1.
+19:58:28: Texture: explosion1/explosion1.000.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.001.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.002.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.003.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.004.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.005.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.006.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.007.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.008.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.009.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.010.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.011.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.012.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.013.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.014.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.015.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.016.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.017.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.018.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.019.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.020.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.021.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.022.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.023.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.024.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.025.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.026.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.027.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.028.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.029.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.030.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.031.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.032.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.033.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.034.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.035.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.036.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.037.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.038.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.039.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.040.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.041.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.042.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.043.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.044.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.045.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.046.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.047.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.048.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.049.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.050.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.051.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.052.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.053.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.054.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.055.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.056.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.057.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.058.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.059.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.060.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.061.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.062.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.063.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.064.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.065.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.066.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.067.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.068.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.069.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.070.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.071.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.072.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.073.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.074.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.075.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.076.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.077.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.078.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.079.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.080.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.081.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.082.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.083.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.084.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.085.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.086.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.087.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.088.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: explosion1/explosion1.089.png: Loading 1 faces(PF_A8R8G8B8,64x48x1) Internal format is PF_A8R8G8B8,64x48x1.
+19:58:28: Texture: GenericSpace.png: Loading 1 faces(PF_A8R8G8B8,396x1008x1) Internal format is PF_A8R8G8B8,396x1008x1.
+19:58:28: Texture: i_effect_rain_front.png: Loading 1 faces(PF_A8R8G8B8,768x128x1) Internal format is PF_A8R8G8B8,768x128x1.
+19:58:28: Texture: c_monkey_walk@ch4.png: Loading 1 faces(PF_A8R8G8B8,400x123x1) Internal format is PF_A8R8G8B8,400x123x1.
+19:58:28: Texture: planet_1.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) Internal format is PF_A8R8G8B8,256x256x1.
+19:58:28: Texture: planet_2.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) Internal format is PF_A8R8G8B8,256x256x1.
+19:58:28: Texture: planet_3.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) Internal format is PF_A8R8G8B8,256x256x1.
+19:58:28: Texture: planet_4.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) Internal format is PF_A8R8G8B8,256x256x1.
+19:58:28: Texture: planet_8.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) Internal format is PF_A8R8G8B8,256x256x1.
+19:58:28: Texture: planet_9.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) Internal format is PF_A8R8G8B8,256x256x1.
+19:58:28: Texture: i_text_plus_number@ch11.png: Loading 1 faces(PF_A8R8G8B8,231x29x1) Internal format is PF_A8R8G8B8,231x29x1.
+19:58:28: Mesh: Loading penguin.mesh.
+19:58:28: Skeleton: Loading penguin.skeleton
+19:58:28: WARNING: penguin.mesh is an older format ([MeshSerializer_v1.8]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+19:58:28: Mesh: Loading razor.mesh.
+19:58:28: WARNING: razor.mesh is an older format ([MeshSerializer_v1.8]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+19:58:28: Mesh: Loading robot.mesh.
+19:58:28: Skeleton: Loading robot.skeleton
+19:58:28: WARNING: robot.mesh is an older format ([MeshSerializer_v1.8]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+19:58:28: ######### LLinkedList Test ##########################	
+19:58:28: LLinkedList_size : 5	
+19:58:28: LLinkedList_test1 : 5555	
+19:58:28: LLinkedList_test2 : 4423	
+19:58:28: LLinkedList_test3 : 25	
+19:58:28: LLinkedList_test4 : abc	
+19:58:28: LLinkedList_test5 : str25	
+19:58:28: LLinkedList_test6 : 25	
+19:58:28: LLinkedList_test7 : 4423	
+19:58:28: LLinkedList_size : 5	
+19:58:28: LLinkedList_pop_test	
+19:58:28: LLinkedList_test_pop_data : abc	
+19:58:28: LLinkedList_test_pop_data : str25	
+19:58:28: LLinkedList_test_pop_data : 25	
+19:58:28: LLinkedList_test_pop_data : 4423	
+19:58:28: LLinkedList_test_pop_data : 5555	
+19:58:28: LLinkedList_size : 0	
+19:58:28: ######### LDeque Test ##########################	
+19:58:28: LDeque_size : 6	
+19:58:28: LDeque_pop_test	
+19:58:28: LDeque_pop_data : str3333	
+19:58:28: LDeque_pop_data : str25	
+19:58:28: LDeque_pop_data : 25	
+19:58:28: LDeque_pop_data : 4423	
+19:58:28: LDeque_pop_data : 5555	
+19:58:28: LDeque_pop_data : 92	
+19:58:28: --- LDeque pop test ---------------	
+19:58:28: LDeque popFornt : str3333	
+19:58:28: LDeque popBack : 92	
+19:58:28: LDeque popFornt : str25	
+19:58:28: LDeque popBack : 5555	
+19:58:28: LDeque popFornt : 25	
+19:58:28: LDeque popBack : 4423	
+19:58:28: LDeque_size : 0	
+19:58:28: configFileList : 
+	LDArrayString(config.xml,config.xml.bak,editorTextureLoadingData.xml,editorTextureLoadingData.xml.bak,myText1.xml,myText2.xml,myText5.xml)	
+19:58:28: sprite id list :	LDArrayString(WalkingMarine,additiveTest,beam,beam2,black,button,button2,cargoship,carrier,cruiser,destroyer,explosion1,explosionPack,i_effect_rain_front,mega,monkey,panel,planet_1,planet_14,planet_2,planet_3,planet_4,planet_8,planet_9,shuttlenoweps,small_star_0,small_star_1,test_number,test_rect,wing_fighter,wing_fighter_body1,wing_fighter_body2,wing_fighter_body3,wing_fighter_body4,wing_fighter_body5)	
+19:58:28: sprite preload id list :	LDArrayString(button2,explosion1,explosionPack,i_effect_rain_front,monkey,panel,planet_1,planet_2,planet_3,planet_4,planet_8,planet_9,test_number,test_rect)	
+19:58:28: frame cur count : 3	
+19:58:28: sprite pause: false	
+19:58:28: sprite isLoop: true	
+19:58:28: sprite speed: 0.5	
+19:58:28: check is false	
+19:58:28: numberTexture : test_number	
+19:58:28: number num : 1.1191923232323e+14	
+19:58:28: number num at minusSize: 4	
+19:58:28: panelTexture : panel	
+19:58:28: TextGo(not convert ansi): Modal Window , Ï≤úÏû¨Ïùò ÏïÑÏù¥ÌÅêÎäî  „ÖÇ„ÖÇ„ÖÇ„ÖÇ  
+ÌÅ¨ÌïòÌïÆ„ÖÇ„Öá„ÖÇ„ÖàÏùë Î∂ÑÎÖ∏ÎÖ∏ÎÖº 
+19:58:28: ≈©«œ¡F§≤§∑§≤§∏¿¿ ∫–≥Î≥Î≥Ì 
+19:58:28: getScrollBarMaxValue : 50	
+19:58:28: listBox size : 3	
+19:58:28: listBox select index : 4294967295	
+19:58:28: Texture: penguin.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 9 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+19:58:28: Texture: r2skin.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 9 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+19:58:28: Texture: texmap2.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with 9 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+19:58:28: parameter : 3	
+19:58:28: 
+19:58:28: @@  __LaputanMain end  @@	
+19:58:57: __LaputanInit	
+19:58:57: @@  __LaputanMain start  @@ 	
+19:58:57: 
+19:58:57: ######### LLinkedList Test ##########################	
+19:58:57: LLinkedList_size : 5	
+19:58:57: LLinkedList_test1 : 5555	
+19:58:57: LLinkedList_test2 : 4423	
+19:58:57: LLinkedList_test3 : 25	
+19:58:57: LLinkedList_test4 : abc	
+19:58:57: LLinkedList_test5 : str25	
+19:58:57: LLinkedList_test6 : 25	
+19:58:57: LLinkedList_test7 : 4423	
+19:58:57: LLinkedList_size : 5	
+19:58:57: LLinkedList_pop_test	
+19:58:57: LLinkedList_test_pop_data : abc	
+19:58:57: LLinkedList_test_pop_data : str25	
+19:58:57: LLinkedList_test_pop_data : 25	
+19:58:57: LLinkedList_test_pop_data : 4423	
+19:58:57: LLinkedList_test_pop_data : 5555	
+19:58:57: LLinkedList_size : 0	
+19:58:57: ######### LDeque Test ##########################	
+19:58:57: LDeque_size : 6	
+19:58:57: LDeque_pop_test	
+19:58:57: LDeque_pop_data : str3333	
+19:58:57: LDeque_pop_data : str25	
+19:58:57: LDeque_pop_data : 25	
+19:58:57: LDeque_pop_data : 4423	
+19:58:57: LDeque_pop_data : 5555	
+19:58:57: LDeque_pop_data : 92	
+19:58:57: --- LDeque pop test ---------------	
+19:58:57: LDeque popFornt : str3333	
+19:58:57: LDeque popBack : 92	
+19:58:57: LDeque popFornt : str25	
+19:58:57: LDeque popBack : 5555	
+19:58:57: LDeque popFornt : 25	
+19:58:57: LDeque popBack : 4423	
+19:58:57: LDeque_size : 0	
+19:58:57: configFileList : 
+	LDArrayString(config.xml,config.xml.bak,editorTextureLoadingData.xml,editorTextureLoadingData.xml.bak,myText1.xml,myText2.xml,myText5.xml)	
+19:58:57: sprite id list :	LDArrayString(WalkingMarine,additiveTest,beam,beam2,black,button,button2,cargoship,carrier,cruiser,destroyer,explosion1,explosionPack,i_effect_rain_front,mega,monkey,panel,planet_1,planet_14,planet_2,planet_3,planet_4,planet_8,planet_9,shuttlenoweps,small_star_0,small_star_1,test_number,test_rect,wing_fighter,wing_fighter_body1,wing_fighter_body2,wing_fighter_body3,wing_fighter_body4,wing_fighter_body5)	
+19:58:57: sprite preload id list :	LDArrayString(button2,explosion1,explosionPack,i_effect_rain_front,monkey,panel,planet_1,planet_2,planet_3,planet_4,planet_8,planet_9,test_number,test_rect)	
+19:58:57: frame cur count : 3	
+19:58:57: sprite pause: false	
+19:58:57: sprite isLoop: true	
+19:58:57: sprite speed: 0.5	
+19:58:57: check is false	
+19:58:57: numberTexture : test_number	
+19:58:57: number num : 1.1191923232323e+14	
+19:58:57: number num at minusSize: 4	
+19:58:57: panelTexture : panel	
+19:58:57: TextGo(not convert ansi): Modal Window , Ï≤úÏû¨Ïùò ÏïÑÏù¥ÌÅêÎäî  „ÖÇ„ÖÇ„ÖÇ„ÖÇ  
+ÌÅ¨ÌïòÌïÆ„ÖÇ„Öá„ÖÇ„ÖàÏùë Î∂ÑÎÖ∏ÎÖ∏ÎÖº 
+19:58:57: ≈©«œ¡F§≤§∑§≤§∏¿¿ ∫–≥Î≥Î≥Ì 
+19:58:57: getScrollBarMaxValue : 50	
+19:58:57: listBox size : 3	
+19:58:57: listBox select index : 4294967295	
+19:58:57: parameter : 3	
+19:58:57: 
+19:58:57: @@  __LaputanMain end  @@	
+19:58:57: pos ::::	LVector2(1, 410)	
+19:58:57: pos ::::	LVector2(2, 410)	
+19:58:57: pos ::::	LVector2(3, 410)	
+19:58:57: pos ::::	LVector2(4, 410)	
+19:58:57: pos ::::	LVector2(5, 410)	
+19:58:57: Texture: flare.png: Loading 1 faces(PF_R8G8B8,256x256x1) with 8 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+19:58:57: GLSL compiled: 0(24) : warning C7011: implicit cast from "int" to "float"
+0(24) : warning C7011: implicit cast from "int" to "float"
+0(24) : warning C7011: implicit cast from "int" to "float"
+
+19:58:57: pos ::::	LVector2(6, 410)	
+19:58:57: pos ::::	LVector2(7, 410)	
+19:58:57: pos ::::	LVector2(8, 410)	
+19:58:57: pos ::::	LVector2(9, 410)	
+19:58:57: pos ::::	LVector2(10, 410)	
+19:58:57: pos ::::	LVector2(11, 410)	
+19:58:57: pos ::::	LVector2(12, 410)	
+19:58:57: pos ::::	LVector2(13, 410)	
+19:58:57: pos ::::	LVector2(14, 410)	
+19:58:57: pos ::::	LVector2(15, 410)	
+19:58:57: pos ::::	LVector2(16, 410)	
+19:58:57: pos ::::	LVector2(17, 410)	
+19:58:57: pos ::::	LVector2(18, 410)	
+19:58:57: pos ::::	LVector2(19, 410)	
+19:58:57: pos ::::	LVector2(20, 410)	
+19:58:57: pos ::::	LVector2(21, 410)	
+19:58:57: pos ::::	LVector2(22, 410)	
+19:58:57: pos ::::	LVector2(23, 410)	
+19:58:57: pos ::::	LVector2(24, 410)	
+19:58:57: pos ::::	LVector2(25, 410)	
+19:58:57: pos ::::	LVector2(26, 410)	
+19:58:57: pos ::::	LVector2(27, 410)	
+19:58:57: pos ::::	LVector2(28, 410)	
+19:58:57: pos ::::	LVector2(29, 410)	
+19:58:57: pos ::::	LVector2(30, 410)	
+19:58:57: pos ::::	LVector2(31, 410)	
+19:58:57: pos ::::	LVector2(32, 410)	
+19:58:57: pos ::::	LVector2(33, 410)	
+19:58:57: pos ::::	LVector2(34, 410)	
+19:58:57: pos ::::	LVector2(35, 410)	
+19:58:57: pos ::::	LVector2(36, 410)	
+19:58:57: pos ::::	LVector2(37, 410)	
+19:58:57: pos ::::	LVector2(38, 410)	
+19:58:57: pos ::::	LVector2(39, 410)	
+19:58:57: pos ::::	LVector2(40, 410)	
+19:58:57: pos ::::	LVector2(41, 410)	
+19:58:57: pos ::::	LVector2(42, 410)	
+19:58:57: pos ::::	LVector2(43, 410)	
+19:58:57: pos ::::	LVector2(44, 410)	
+19:58:58: pos ::::	LVector2(45, 410)	
+19:58:58: pos ::::	LVector2(46, 410)	
+19:58:58: pos ::::	LVector2(47, 410)	
+19:58:58: pos ::::	LVector2(48, 410)	
+19:58:58: pos ::::	LVector2(49, 410)	
+19:58:58: pos ::::	LVector2(50, 410)	
+19:58:58: pos ::::	LVector2(51, 410)	
+19:58:58: pos ::::	LVector2(52, 410)	
+19:58:58: pos ::::	LVector2(53, 410)	
+19:58:58: pos ::::	LVector2(54, 410)	
+19:58:58: pos ::::	LVector2(55, 410)	
+19:58:58: pos ::::	LVector2(56, 410)	
+19:58:58: pos ::::	LVector2(57, 410)	
+19:58:58: pos ::::	LVector2(58, 410)	
+19:58:58: pos ::::	LVector2(59, 410)	
+19:58:58: pos ::::	LVector2(60, 410)	
+19:58:58: pos ::::	LVector2(61, 410)	
+19:58:58: pos ::::	LVector2(62, 410)	
+19:58:58: pos ::::	LVector2(63, 410)	
+19:58:58: pos ::::	LVector2(64, 410)	
+19:58:58: pos ::::	LVector2(65, 410)	
+19:58:58: pos ::::	LVector2(66, 410)	
+19:58:58: pos ::::	LVector2(67, 410)	
+19:58:58: pos ::::	LVector2(68, 410)	
+19:58:58: pos ::::	LVector2(69, 410)	
+19:58:58: pos ::::	LVector2(70, 410)	
+19:58:58: pos ::::	LVector2(71, 410)	
+19:58:58: pos ::::	LVector2(72, 410)	
+19:58:58: pos ::::	LVector2(73, 410)	
+19:58:58: pos ::::	LVector2(74, 410)	
+19:58:58: pos ::::	LVector2(75, 410)	
+19:58:59: pos ::::	LVector2(76, 410)	
+19:58:59: pos ::::	LVector2(77, 410)	
+19:58:59: pos ::::	LVector2(78, 410)	
+19:58:59: pos ::::	LVector2(79, 410)	
+19:58:59: pos ::::	LVector2(80, 410)	
+19:58:59: pos ::::	LVector2(81, 410)	
+19:58:59: pos ::::	LVector2(82, 410)	
+19:58:59: pos ::::	LVector2(83, 410)	
+19:58:59: pos ::::	LVector2(84, 410)	
+19:58:59: pos ::::	LVector2(85, 410)	
+19:58:59: pos ::::	LVector2(86, 410)	
+19:58:59: pos ::::	LVector2(87, 410)	
+19:58:59: pos ::::	LVector2(88, 410)	
+19:58:59: pos ::::	LVector2(89, 410)	
+19:58:59: pos ::::	LVector2(90, 410)	
+19:58:59: pos ::::	LVector2(91, 410)	
+19:58:59: pos ::::	LVector2(92, 410)	
+19:58:59: pos ::::	LVector2(93, 410)	
+19:58:59: pos ::::	LVector2(94, 410)	
+19:58:59: pos ::::	LVector2(95, 410)	
+19:58:59: pos ::::	LVector2(96, 410)	
+19:58:59: pos ::::	LVector2(97, 410)	
+19:58:59: pos ::::	LVector2(98, 410)	
+19:58:59: pos ::::	LVector2(99, 410)	
+19:58:59: pos ::::	LVector2(100, 410)	
+19:58:59: pos ::::	LVector2(101, 410)	
+19:58:59: pos ::::	LVector2(102, 410)	
+19:58:59: pos ::::	LVector2(103, 410)	
+19:58:59: pos ::::	LVector2(104, 410)	
+19:58:59: pos ::::	LVector2(105, 410)	
+19:58:59: pos ::::	LVector2(106, 410)	
+19:58:59: pos ::::	LVector2(107, 410)	
+19:58:59: pos ::::	LVector2(108, 410)	
+19:58:59: pos ::::	LVector2(109, 410)	
+19:58:59: pos ::::	LVector2(110, 410)	
+19:58:59: pos ::::	LVector2(111, 410)	
+19:58:59: pos ::::	LVector2(112, 410)	
+19:58:59: pos ::::	LVector2(113, 410)	
+19:58:59: pos ::::	LVector2(114, 410)	
+19:58:59: pos ::::	LVector2(115, 410)	
+19:58:59: pos ::::	LVector2(116, 410)	
+19:58:59: pos ::::	LVector2(117, 410)	
+19:58:59: pos ::::	LVector2(118, 410)	
+19:58:59: pos ::::	LVector2(119, 410)	
+19:58:59: pos ::::	LVector2(120, 410)	
+19:58:59: pos ::::	LVector2(121, 410)	
+19:58:59: pos ::::	LVector2(122, 410)	
+19:58:59: pos ::::	LVector2(123, 410)	
+19:58:59: pos ::::	LVector2(124, 410)	
+19:58:59: pos ::::	LVector2(125, 410)	
+19:58:59: pos ::::	LVector2(126, 410)	
+19:58:59: pos ::::	LVector2(127, 410)	
+19:58:59: pos ::::	LVector2(128, 410)	
+19:58:59: pos ::::	LVector2(129, 410)	
+19:58:59: pos ::::	LVector2(130, 410)	
+19:58:59: pos ::::	LVector2(131, 410)	
+19:58:59: pos ::::	LVector2(132, 410)	
+19:58:59: pos ::::	LVector2(133, 410)	
+19:58:59: pos ::::	LVector2(134, 410)	
+19:58:59: pos ::::	LVector2(135, 410)	
+19:58:59: pos ::::	LVector2(136, 410)	
+19:58:59: pos ::::	LVector2(137, 410)	
+19:58:59: pos ::::	LVector2(138, 410)	
+19:58:59: pos ::::	LVector2(139, 410)	
+19:58:59: pos ::::	LVector2(140, 410)	
+19:58:59: pos ::::	LVector2(141, 410)	
+19:58:59: pos ::::	LVector2(142, 410)	
+19:58:59: pos ::::	LVector2(143, 410)	
+19:58:59: pos ::::	LVector2(144, 410)	
+19:58:59: pos ::::	LVector2(145, 410)	
+19:58:59: pos ::::	LVector2(146, 410)	
+19:58:59: pos ::::	LVector2(147, 410)	
+19:58:59: pos ::::	LVector2(148, 410)	
+19:58:59: pos ::::	LVector2(149, 410)	
+19:58:59: pos ::::	LVector2(150, 410)	
+19:58:59: pos ::::	LVector2(151, 410)	
+19:58:59: pos ::::	LVector2(152, 410)	
+19:58:59: pos ::::	LVector2(153, 410)	
+19:58:59: pos ::::	LVector2(154, 410)	
+19:58:59: pos ::::	LVector2(155, 410)	
+19:58:59: pos ::::	LVector2(156, 410)	
+19:58:59: pos ::::	LVector2(157, 410)	
+19:58:59: pos ::::	LVector2(158, 410)	
+19:58:59: pos ::::	LVector2(159, 410)	
+19:58:59: pos ::::	LVector2(160, 410)	
+19:58:59: pos ::::	LVector2(161, 410)	
+19:58:59: pos ::::	LVector2(162, 410)	
+19:58:59: pos ::::	LVector2(163, 410)	
+19:58:59: pos ::::	LVector2(164, 410)	
+19:59:00: pos ::::	LVector2(165, 410)	
+19:59:00: pos ::::	LVector2(166, 410)	
+19:59:00: pos ::::	LVector2(167, 410)	
+19:59:00: pos ::::	LVector2(168, 410)	
+19:59:00: pos ::::	LVector2(169, 410)	
+19:59:00: pos ::::	LVector2(170, 410)	
+19:59:00: pos ::::	LVector2(171, 410)	
+19:59:00: pos ::::	LVector2(172, 410)	
+19:59:00: pos ::::	LVector2(173, 410)	
+19:59:00: pos ::::	LVector2(174, 410)	
+19:59:00: pos ::::	LVector2(175, 410)	
+19:59:00: pos ::::	LVector2(176, 410)	
+19:59:00: pos ::::	LVector2(177, 410)	
+19:59:00: pos ::::	LVector2(178, 410)	
+19:59:00: pos ::::	LVector2(179, 410)	
+19:59:00: pos ::::	LVector2(180, 410)	
+19:59:00: pos ::::	LVector2(181, 410)	
+19:59:00: pos ::::	LVector2(182, 410)	
+19:59:00: pos ::::	LVector2(183, 410)	
+19:59:00: pos ::::	LVector2(184, 410)	
+19:59:00: pos ::::	LVector2(185, 410)	
+19:59:00: pos ::::	LVector2(186, 410)	
+19:59:00: pos ::::	LVector2(187, 410)	
+19:59:00: pos ::::	LVector2(188, 410)	
+19:59:00: pos ::::	LVector2(189, 410)	
+19:59:00: pos ::::	LVector2(190, 410)	
+19:59:00: pos ::::	LVector2(191, 410)	
+19:59:00: pos ::::	LVector2(192, 410)	
+19:59:00: pos ::::	LVector2(193, 410)	
+19:59:00: pos ::::	LVector2(194, 410)	
+19:59:00: pos ::::	LVector2(195, 410)	
+19:59:00: pos ::::	LVector2(196, 410)	
+19:59:00: pos ::::	LVector2(197, 410)	
+19:59:00: pos ::::	LVector2(198, 410)	
+19:59:00: pos ::::	LVector2(199, 410)	
+19:59:00: pos ::::	LVector2(200, 410)	
+19:59:00: pos ::::	LVector2(201, 410)	
+19:59:00: pos ::::	LVector2(202, 410)	
+19:59:00: pos ::::	LVector2(203, 410)	
+19:59:00: pos ::::	LVector2(204, 410)	
+19:59:00: pos ::::	LVector2(205, 410)	
+19:59:00: pos ::::	LVector2(206, 410)	
+19:59:00: pos ::::	LVector2(207, 410)	
+19:59:00: pos ::::	LVector2(208, 410)	
+19:59:00: pos ::::	LVector2(209, 410)	
+19:59:00: pos ::::	LVector2(210, 410)	
+19:59:00: pos ::::	LVector2(211, 410)	
+19:59:00: pos ::::	LVector2(212, 410)	
+19:59:00: pos ::::	LVector2(213, 410)	
+19:59:00: pos ::::	LVector2(214, 410)	
+19:59:00: pos ::::	LVector2(215, 410)	
+19:59:00: pos ::::	LVector2(216, 410)	
+19:59:00: pos ::::	LVector2(217, 410)	
+19:59:00: pos ::::	LVector2(218, 410)	
+19:59:00: pos ::::	LVector2(219, 410)	
+19:59:00: pos ::::	LVector2(220, 410)	
+19:59:00: pos ::::	LVector2(221, 410)	
+19:59:00: pos ::::	LVector2(222, 410)	
+19:59:00: pos ::::	LVector2(223, 410)	
+19:59:00: pos ::::	LVector2(224, 410)	
+19:59:01: pos ::::	LVector2(225, 410)	
+19:59:01: pos ::::	LVector2(226, 410)	
+19:59:01: pos ::::	LVector2(227, 410)	
+19:59:01: pos ::::	LVector2(228, 410)	
+19:59:01: pos ::::	LVector2(229, 410)	
+19:59:01: pos ::::	LVector2(230, 410)	
+19:59:01: pos ::::	LVector2(231, 410)	
+19:59:01: pos ::::	LVector2(232, 410)	
+19:59:01: pos ::::	LVector2(233, 410)	
+19:59:01: pos ::::	LVector2(234, 410)	
+19:59:01: pos ::::	LVector2(235, 410)	
+19:59:01: pos ::::	LVector2(236, 410)	
+19:59:01: pos ::::	LVector2(237, 410)	
+19:59:01: pos ::::	LVector2(238, 410)	
+19:59:01: pos ::::	LVector2(239, 410)	
+19:59:01: pos ::::	LVector2(240, 410)	
+19:59:01: pos ::::	LVector2(241, 410)	
+19:59:01: pos ::::	LVector2(242, 410)	
+19:59:01: pos ::::	LVector2(243, 410)	
+19:59:01: pos ::::	LVector2(244, 410)	
+19:59:01: pos ::::	LVector2(245, 410)	
+19:59:01: pos ::::	LVector2(246, 410)	
+19:59:01: pos ::::	LVector2(247, 410)	
+19:59:01: pos ::::	LVector2(248, 410)	
+19:59:01: pos ::::	LVector2(249, 410)	
+19:59:01: pos ::::	LVector2(250, 410)	
+19:59:01: pos ::::	LVector2(251, 410)	
+19:59:01: pos ::::	LVector2(252, 410)	
+19:59:01: pos ::::	LVector2(253, 410)	
+19:59:01: pos ::::	LVector2(254, 410)	
+19:59:01: pos ::::	LVector2(255, 410)	
+19:59:01: pos ::::	LVector2(256, 410)	
+19:59:01: pos ::::	LVector2(257, 410)	
+19:59:01: pos ::::	LVector2(258, 410)	
+19:59:01: pos ::::	LVector2(259, 410)	
+19:59:01: pos ::::	LVector2(260, 410)	
+19:59:01: pos ::::	LVector2(261, 410)	
+19:59:01: pos ::::	LVector2(262, 410)	
+19:59:01: pos ::::	LVector2(263, 410)	
+19:59:01: pos ::::	LVector2(264, 410)	
+19:59:01: pos ::::	LVector2(265, 410)	
+19:59:01: pos ::::	LVector2(266, 410)	
+19:59:01: pos ::::	LVector2(267, 410)	
+19:59:01: pos ::::	LVector2(268, 410)	
+19:59:01: pos ::::	LVector2(269, 410)	
+19:59:01: pos ::::	LVector2(270, 410)	
+19:59:01: pos ::::	LVector2(271, 410)	
+19:59:01: pos ::::	LVector2(272, 410)	
+19:59:01: pos ::::	LVector2(273, 410)	
+19:59:01: pos ::::	LVector2(274, 410)	
+19:59:01: pos ::::	LVector2(275, 410)	
+19:59:01: pos ::::	LVector2(276, 410)	
+19:59:01: pos ::::	LVector2(277, 410)	
+19:59:01: pos ::::	LVector2(278, 410)	
+19:59:01: pos ::::	LVector2(279, 410)	
+19:59:01: pos ::::	LVector2(280, 410)	
+19:59:01: pos ::::	LVector2(281, 410)	
+19:59:01: pos ::::	LVector2(282, 410)	
+19:59:01: pos ::::	LVector2(283, 410)	
+19:59:01: pos ::::	LVector2(284, 410)	
+19:59:02: pos ::::	LVector2(285, 410)	
+19:59:02: pos ::::	LVector2(286, 410)	
+19:59:02: pos ::::	LVector2(287, 410)	
+19:59:02: pos ::::	LVector2(288, 410)	
+19:59:02: pos ::::	LVector2(289, 410)	
+19:59:02: pos ::::	LVector2(290, 410)	
+19:59:02: pos ::::	LVector2(291, 410)	
+19:59:02: pos ::::	LVector2(292, 410)	
+19:59:02: pos ::::	LVector2(293, 410)	
+19:59:02: pos ::::	LVector2(294, 410)	
+19:59:02: pos ::::	LVector2(295, 410)	
+19:59:02: pos ::::	LVector2(296, 410)	
+19:59:02: pos ::::	LVector2(297, 410)	
+19:59:02: pos ::::	LVector2(298, 410)	
+19:59:02: pos ::::	LVector2(299, 410)	
+19:59:02: pos ::::	LVector2(300, 410)	
+19:59:02: pos ::::	LVector2(301, 410)	
+19:59:02: pos ::::	LVector2(302, 410)	
+19:59:02: pos ::::	LVector2(303, 410)	
+19:59:02: pos ::::	LVector2(304, 410)	
+19:59:02: pos ::::	LVector2(305, 410)	
+19:59:02: pos ::::	LVector2(306, 410)	
+19:59:02: pos ::::	LVector2(307, 410)	
+19:59:02: pos ::::	LVector2(308, 410)	
+19:59:02: pos ::::	LVector2(309, 410)	
+19:59:02: pos ::::	LVector2(310, 410)	
+19:59:02: pos ::::	LVector2(311, 410)	
+19:59:02: pos ::::	LVector2(312, 410)	
+19:59:02: pos ::::	LVector2(313, 410)	
+19:59:02: pos ::::	LVector2(314, 410)	
+19:59:02: pos ::::	LVector2(315, 410)	
+19:59:02: pos ::::	LVector2(316, 410)	
+19:59:02: pos ::::	LVector2(317, 410)	
+19:59:02: pos ::::	LVector2(318, 410)	
+19:59:02: pos ::::	LVector2(319, 410)	
+19:59:02: pos ::::	LVector2(320, 410)	
+19:59:02: pos ::::	LVector2(321, 410)	
+19:59:02: pos ::::	LVector2(322, 410)	
+19:59:02: pos ::::	LVector2(323, 410)	
+19:59:02: pos ::::	LVector2(324, 410)	
+19:59:02: pos ::::	LVector2(325, 410)	
+19:59:02: pos ::::	LVector2(326, 410)	
+19:59:02: pos ::::	LVector2(327, 410)	
+19:59:02: pos ::::	LVector2(328, 410)	
+19:59:02: pos ::::	LVector2(329, 410)	
+19:59:02: pos ::::	LVector2(330, 410)	
+19:59:02: pos ::::	LVector2(331, 410)	
+19:59:02: pos ::::	LVector2(332, 410)	
+19:59:02: pos ::::	LVector2(333, 410)	
+19:59:02: pos ::::	LVector2(334, 410)	
+19:59:02: pos ::::	LVector2(335, 410)	
+19:59:02: pos ::::	LVector2(336, 410)	
+19:59:02: pos ::::	LVector2(337, 410)	
+19:59:02: pos ::::	LVector2(338, 410)	
+19:59:02: pos ::::	LVector2(339, 410)	
+19:59:02: pos ::::	LVector2(340, 410)	
+19:59:02: pos ::::	LVector2(341, 410)	
+19:59:02: pos ::::	LVector2(342, 410)	
+19:59:02: pos ::::	LVector2(343, 410)	
+19:59:02: pos ::::	LVector2(344, 410)	
+19:59:03: pos ::::	LVector2(345, 410)	
+19:59:03: pos ::::	LVector2(346, 410)	
+19:59:03: pos ::::	LVector2(347, 410)	
+19:59:03: pos ::::	LVector2(348, 410)	
+19:59:03: pos ::::	LVector2(349, 410)	
+19:59:03: pos ::::	LVector2(350, 410)	
+19:59:03: pos ::::	LVector2(351, 410)	
+19:59:03: pos ::::	LVector2(352, 410)	
+19:59:03: pos ::::	LVector2(353, 410)	
+19:59:03: pos ::::	LVector2(354, 410)	
+19:59:03: pos ::::	LVector2(355, 410)	
+19:59:03: pos ::::	LVector2(356, 410)	
+19:59:03: pos ::::	LVector2(357, 410)	
+19:59:03: pos ::::	LVector2(358, 410)	
+19:59:03: pos ::::	LVector2(359, 410)	
+19:59:03: pos ::::	LVector2(360, 410)	
+19:59:03: pos ::::	LVector2(361, 410)	
+19:59:03: pos ::::	LVector2(362, 410)	
+19:59:03: pos ::::	LVector2(363, 410)	
+19:59:03: pos ::::	LVector2(364, 410)	
+19:59:03: pos ::::	LVector2(365, 410)	
+19:59:03: pos ::::	LVector2(366, 410)	
+19:59:03: pos ::::	LVector2(367, 410)	
+19:59:03: pos ::::	LVector2(368, 410)	
+19:59:03: pos ::::	LVector2(369, 410)	
+19:59:03: pos ::::	LVector2(370, 410)	
+19:59:03: pos ::::	LVector2(371, 410)	
+19:59:03: pos ::::	LVector2(372, 410)	
+19:59:03: pos ::::	LVector2(373, 410)	
+19:59:03: pos ::::	LVector2(374, 410)	
+19:59:03: pos ::::	LVector2(375, 410)	
+19:59:03: pos ::::	LVector2(376, 410)	
+19:59:03: pos ::::	LVector2(377, 410)	
+19:59:03: pos ::::	LVector2(378, 410)	
+19:59:03: pos ::::	LVector2(379, 410)	
+19:59:03: pos ::::	LVector2(380, 410)	
+19:59:03: pos ::::	LVector2(381, 410)	
+19:59:03: pos ::::	LVector2(382, 410)	
+19:59:03: pos ::::	LVector2(383, 410)	
+19:59:03: pos ::::	LVector2(384, 410)	
+19:59:03: pos ::::	LVector2(385, 410)	
+19:59:03: pos ::::	LVector2(386, 410)	
+19:59:03: pos ::::	LVector2(387, 410)	
+19:59:03: pos ::::	LVector2(388, 410)	
+19:59:03: pos ::::	LVector2(389, 410)	
+19:59:03: pos ::::	LVector2(390, 410)	
+19:59:03: pos ::::	LVector2(391, 410)	
+19:59:03: pos ::::	LVector2(392, 410)	
+19:59:03: pos ::::	LVector2(393, 410)	
+19:59:03: pos ::::	LVector2(394, 410)	
+19:59:03: pos ::::	LVector2(395, 410)	
+19:59:03: pos ::::	LVector2(396, 410)	
+19:59:03: pos ::::	LVector2(397, 410)	
+19:59:03: pos ::::	LVector2(398, 410)	
+19:59:03: pos ::::	LVector2(399, 410)	
+19:59:03: pos ::::	LVector2(400, 410)	
+19:59:03: ==============       Debug Break  Start       ==============	
+19:59:03: Time 19:59:03	
+19:59:03: ========================================================	
+19:59:03: "main.lua"(110) D(1) : nil	
+19:59:03: pos	
+19:59:03: gameObject	
+19:59:03: step	
+19:59:03: ========================================================	
+19:59:03: ===========        Write Watch Code        ====================	
+19:59:07: ==============       Debug Break  End       ==============	
+19:59:07: pos ::::	LVector2(401, 410)	
+19:59:07: pos ::::	LVector2(402, 410)	
+19:59:07: pos ::::	LVector2(403, 410)	
+19:59:07: pos ::::	LVector2(404, 410)	
+19:59:07: pos ::::	LVector2(405, 410)	
+19:59:07: pos ::::	LVector2(406, 410)	
+19:59:07: pos ::::	LVector2(407, 410)	
+19:59:07: pos ::::	LVector2(408, 410)	
+19:59:07: pos ::::	LVector2(409, 410)	
+19:59:07: pos ::::	LVector2(410, 410)	
+19:59:07: pos ::::	LVector2(411, 410)	
+19:59:07: pos ::::	LVector2(412, 410)	
+19:59:07: pos ::::	LVector2(413, 410)	
+19:59:07: pos ::::	LVector2(414, 410)	
+19:59:07: pos ::::	LVector2(415, 410)	
+19:59:07: pos ::::	LVector2(416, 410)	
+19:59:07: pos ::::	LVector2(417, 410)	
+19:59:07: pos ::::	LVector2(418, 410)	
+19:59:07: pos ::::	LVector2(419, 410)	
+19:59:07: pos ::::	LVector2(420, 410)	
+19:59:07: pos ::::	LVector2(421, 410)	
+19:59:07: pos ::::	LVector2(422, 410)	
+19:59:07: pos ::::	LVector2(423, 410)	
+19:59:07: pos ::::	LVector2(424, 410)	
+19:59:07: pos ::::	LVector2(425, 410)	
+19:59:07: pos ::::	LVector2(426, 410)	
+19:59:07: pos ::::	LVector2(427, 410)	
+19:59:07: pos ::::	LVector2(428, 410)	
+19:59:07: pos ::::	LVector2(429, 410)	
+19:59:07: pos ::::	LVector2(430, 410)	
+19:59:08: pos ::::	LVector2(431, 410)	
+19:59:08: pos ::::	LVector2(432, 410)	
+19:59:08: pos ::::	LVector2(433, 410)	
+19:59:08: pos ::::	LVector2(434, 410)	
+19:59:08: pos ::::	LVector2(435, 410)	
+19:59:08: pos ::::	LVector2(436, 410)	
+19:59:08: pos ::::	LVector2(437, 410)	
+19:59:08: pos ::::	LVector2(438, 410)	
+19:59:08: pos ::::	LVector2(439, 410)	
+19:59:08: pos ::::	LVector2(440, 410)	
+19:59:08: pos ::::	LVector2(441, 410)	
+19:59:08: pos ::::	LVector2(442, 410)	
+19:59:08: pos ::::	LVector2(443, 410)	
+19:59:08: pos ::::	LVector2(444, 410)	
+19:59:08: pos ::::	LVector2(445, 410)	
+19:59:08: pos ::::	LVector2(446, 410)	
+19:59:08: pos ::::	LVector2(447, 410)	
+19:59:08: pos ::::	LVector2(448, 410)	
+19:59:08: pos ::::	LVector2(449, 410)	
+19:59:08: pos ::::	LVector2(450, 410)	
+19:59:08: pos ::::	LVector2(451, 410)	
+19:59:08: pos ::::	LVector2(452, 410)	
+19:59:08: pos ::::	LVector2(453, 410)	
+19:59:08: pos ::::	LVector2(454, 410)	
+19:59:08: pos ::::	LVector2(455, 410)	
+19:59:08: pos ::::	LVector2(456, 410)	
+19:59:08: pos ::::	LVector2(457, 410)	
+19:59:08: pos ::::	LVector2(458, 410)	
+19:59:08: pos ::::	LVector2(459, 410)	
+19:59:08: pos ::::	LVector2(460, 410)	
+19:59:08: pos ::::	LVector2(461, 410)	
+19:59:08: pos ::::	LVector2(462, 410)	
+19:59:08: pos ::::	LVector2(463, 410)	
+19:59:08: pos ::::	LVector2(464, 410)	
+19:59:08: pos ::::	LVector2(465, 410)	
+19:59:08: pos ::::	LVector2(466, 410)	
+19:59:08: pos ::::	LVector2(467, 410)	
+19:59:08: pos ::::	LVector2(468, 410)	
+19:59:08: pos ::::	LVector2(469, 410)	
+19:59:08: pos ::::	LVector2(470, 410)	
+19:59:08: pos ::::	LVector2(471, 410)	
+19:59:08: pos ::::	LVector2(472, 410)	
+19:59:08: pos ::::	LVector2(473, 410)	
+19:59:08: pos ::::	LVector2(474, 410)	
+19:59:08: pos ::::	LVector2(475, 410)	
+19:59:08: pos ::::	LVector2(476, 410)	
+19:59:08: pos ::::	LVector2(477, 410)	
+19:59:08: pos ::::	LVector2(478, 410)	
+19:59:08: pos ::::	LVector2(479, 410)	
+19:59:08: pos ::::	LVector2(480, 410)	
+19:59:08: pos ::::	LVector2(481, 410)	
+19:59:08: pos ::::	LVector2(482, 410)	
+19:59:08: pos ::::	LVector2(483, 410)	
+19:59:08: pos ::::	LVector2(484, 410)	
+19:59:08: pos ::::	LVector2(485, 410)	
+19:59:08: pos ::::	LVector2(486, 410)	
+19:59:08: pos ::::	LVector2(487, 410)	
+19:59:08: pos ::::	LVector2(488, 410)	
+19:59:08: pos ::::	LVector2(489, 410)	
+19:59:08: pos ::::	LVector2(490, 410)	
+19:59:09: pos ::::	LVector2(491, 410)	
+19:59:09: pos ::::	LVector2(492, 410)	
+19:59:09: pos ::::	LVector2(493, 410)	
+19:59:09: pos ::::	LVector2(494, 410)	
+19:59:09: pos ::::	LVector2(495, 410)	
+19:59:09: pos ::::	LVector2(496, 410)	
+19:59:09: pos ::::	LVector2(497, 410)	
+19:59:09: pos ::::	LVector2(498, 410)	
+19:59:09: pos ::::	LVector2(499, 410)	
+19:59:09: pos ::::	LVector2(500, 410)	
+19:59:09: pos ::::	LVector2(501, 410)	
+19:59:09: pos ::::	LVector2(502, 410)	
+19:59:09: pos ::::	LVector2(503, 410)	
+19:59:09: pos ::::	LVector2(504, 410)	
+19:59:09: pos ::::	LVector2(505, 410)	
+19:59:09: pos ::::	LVector2(506, 410)	
+19:59:09: pos ::::	LVector2(507, 410)	
+19:59:09: pos ::::	LVector2(508, 410)	
+19:59:09: pos ::::	LVector2(509, 410)	
+19:59:09: pos ::::	LVector2(510, 410)	
+19:59:09: pos ::::	LVector2(511, 410)	
+19:59:09: pos ::::	LVector2(512, 410)	
+19:59:09: pos ::::	LVector2(513, 410)	
+19:59:09: pos ::::	LVector2(514, 410)	
+19:59:09: pos ::::	LVector2(515, 410)	
+19:59:09: pos ::::	LVector2(516, 410)	
+19:59:09: pos ::::	LVector2(517, 410)	
+19:59:09: pos ::::	LVector2(518, 410)	
+19:59:09: pos ::::	LVector2(519, 410)	
+19:59:09: pos ::::	LVector2(520, 410)	
+19:59:09: pos ::::	LVector2(521, 410)	
+19:59:09: pos ::::	LVector2(522, 410)	
+19:59:09: pos ::::	LVector2(523, 410)	
+19:59:09: pos ::::	LVector2(524, 410)	
+19:59:09: pos ::::	LVector2(525, 410)	
+19:59:09: pos ::::	LVector2(526, 410)	
+19:59:09: pos ::::	LVector2(527, 410)	
+19:59:09: pos ::::	LVector2(528, 410)	
+19:59:09: pos ::::	LVector2(529, 410)	
+19:59:09: pos ::::	LVector2(530, 410)	
+19:59:09: pos ::::	LVector2(531, 410)	
+19:59:09: pos ::::	LVector2(532, 410)	
+19:59:09: pos ::::	LVector2(533, 410)	
+19:59:09: pos ::::	LVector2(534, 410)	
+19:59:09: pos ::::	LVector2(535, 410)	
+19:59:09: pos ::::	LVector2(536, 410)	
+19:59:09: pos ::::	LVector2(537, 410)	
+19:59:09: pos ::::	LVector2(538, 410)	
+19:59:09: pos ::::	LVector2(539, 410)	
+19:59:09: pos ::::	LVector2(540, 410)	
+19:59:09: pos ::::	LVector2(541, 410)	
+19:59:09: pos ::::	LVector2(542, 410)	
+19:59:09: pos ::::	LVector2(543, 410)	
+19:59:09: pos ::::	LVector2(544, 410)	
+19:59:09: pos ::::	LVector2(545, 410)	
+19:59:09: pos ::::	LVector2(546, 410)	
+19:59:09: pos ::::	LVector2(547, 410)	
+19:59:09: pos ::::	LVector2(548, 410)	
+19:59:09: pos ::::	LVector2(549, 410)	
+19:59:09: pos ::::	LVector2(550, 410)	
+19:59:10: pos ::::	LVector2(551, 410)	
+19:59:10: pos ::::	LVector2(552, 410)	
+19:59:10: pos ::::	LVector2(553, 410)	
+19:59:10: pos ::::	LVector2(554, 410)	
+19:59:10: pos ::::	LVector2(555, 410)	
+19:59:10: pos ::::	LVector2(556, 410)	
+19:59:10: pos ::::	LVector2(557, 410)	
+19:59:10: pos ::::	LVector2(558, 410)	
+19:59:10: pos ::::	LVector2(559, 410)	
+19:59:10: pos ::::	LVector2(560, 410)	
+19:59:10: pos ::::	LVector2(561, 410)	
+19:59:10: pos ::::	LVector2(562, 410)	
+19:59:10: pos ::::	LVector2(563, 410)	
+19:59:10: pos ::::	LVector2(564, 410)	
+19:59:10: pos ::::	LVector2(565, 410)	
+19:59:10: pos ::::	LVector2(566, 410)	
+19:59:10: pos ::::	LVector2(567, 410)	
+19:59:10: pos ::::	LVector2(568, 410)	
+19:59:10: pos ::::	LVector2(569, 410)	
+19:59:10: pos ::::	LVector2(570, 410)	
+19:59:10: pos ::::	LVector2(571, 410)	
+19:59:10: pos ::::	LVector2(572, 410)	
+19:59:10: pos ::::	LVector2(573, 410)	
+19:59:10: pos ::::	LVector2(574, 410)	
+19:59:10: pos ::::	LVector2(575, 410)	
+19:59:10: pos ::::	LVector2(576, 410)	
+19:59:10: pos ::::	LVector2(577, 410)	
+19:59:10: pos ::::	LVector2(578, 410)	
+19:59:10: pos ::::	LVector2(579, 410)	
+19:59:10: pos ::::	LVector2(580, 410)	
+19:59:10: pos ::::	LVector2(581, 410)	
+19:59:10: pos ::::	LVector2(582, 410)	
+19:59:10: pos ::::	LVector2(583, 410)	
+19:59:10: pos ::::	LVector2(584, 410)	
+19:59:10: pos ::::	LVector2(585, 410)	
+19:59:10: pos ::::	LVector2(586, 410)	
+19:59:10: pos ::::	LVector2(587, 410)	
+19:59:10: pos ::::	LVector2(588, 410)	
+19:59:10: pos ::::	LVector2(589, 410)	
+19:59:10: pos ::::	LVector2(590, 410)	
+19:59:10: pos ::::	LVector2(591, 410)	
+19:59:10: pos ::::	LVector2(592, 410)	
+19:59:10: pos ::::	LVector2(593, 410)	
+19:59:10: pos ::::	LVector2(594, 410)	
+19:59:10: pos ::::	LVector2(595, 410)	
+19:59:10: pos ::::	LVector2(596, 410)	
+19:59:10: pos ::::	LVector2(597, 410)	
+19:59:10: pos ::::	LVector2(598, 410)	
+19:59:10: pos ::::	LVector2(599, 410)	
+19:59:10: pos ::::	LVector2(600, 410)	
+19:59:10: pos ::::	LVector2(601, 410)	
+19:59:10: ==============       Debug Break  Start       ==============	
+19:59:10: Time 19:59:10	
+19:59:10: ========================================================	
+19:59:10: "main.lua"(112) D(1) : nil	
+19:59:10: pos	
+19:59:10: gameObject	
+19:59:10: step	
+19:59:10: ========================================================	
+19:59:10: ===========        Write Watch Code        ====================	
+19:59:12: ==============       Debug Break  End       ==============	
+19:59:12: pos ::::	LVector2(602, 410)	
+19:59:12: ==============       Debug Break  Start       ==============	
+19:59:12: Time 19:59:12	
+19:59:12: ========================================================	
+19:59:12: "main.lua"(112) D(1) : nil	
+19:59:12: pos	
+19:59:12: gameObject	
+19:59:12: step	
+19:59:12: ========================================================	
+19:59:12: ===========        Write Watch Code        ====================	
+19:59:13: ==============       Debug Break  End       ==============	
+19:59:13: pos ::::	LVector2(603, 410)	
+19:59:13: ==============       Debug Break  Start       ==============	
+19:59:13: Time 19:59:13	
+19:59:13: ========================================================	
+19:59:13: "main.lua"(112) D(1) : nil	
+19:59:13: pos	
+19:59:13: gameObject	
+19:59:13: step	
+19:59:13: ========================================================	
+19:59:13: ===========        Write Watch Code        ====================	
+19:59:13: ==============       Debug Break  End       ==============	
+19:59:13: pos ::::	LVector2(604, 410)	
+19:59:13: ==============       Debug Break  Start       ==============	
+19:59:13: Time 19:59:13	
+19:59:13: ========================================================	
+19:59:13: "main.lua"(112) D(1) : nil	
+19:59:13: pos	
+19:59:13: gameObject	
+19:59:13: step	
+19:59:13: ========================================================	
+19:59:13: ===========        Write Watch Code        ====================	
+19:59:13: ==============       Debug Break  End       ==============	
+19:59:13: pos ::::	LVector2(605, 410)	
+19:59:13: ==============       Debug Break  Start       ==============	
+19:59:13: Time 19:59:13	
+19:59:13: ========================================================	
+19:59:13: "main.lua"(112) D(1) : nil	
+19:59:13: pos	
+19:59:13: gameObject	
+19:59:13: step	
+19:59:13: ========================================================	
+19:59:13: ===========        Write Watch Code        ====================	
+19:59:17: ==============       Debug Break  End       ==============	
+19:59:17: pos ::::	LVector2(606, 410)	
+19:59:17: pos ::::	LVector2(607, 410)	
+19:59:17: pos ::::	LVector2(608, 410)	
+19:59:17: pos ::::	LVector2(609, 410)	
+19:59:17: pos ::::	LVector2(610, 410)	
+19:59:17: pos ::::	LVector2(611, 410)	
+19:59:17: pos ::::	LVector2(612, 410)	
+19:59:17: pos ::::	LVector2(613, 410)	
+19:59:17: pos ::::	LVector2(614, 410)	
+19:59:17: pos ::::	LVector2(615, 410)	
+19:59:17: pos ::::	LVector2(616, 410)	
+19:59:17: pos ::::	LVector2(617, 410)	
+19:59:17: pos ::::	LVector2(618, 410)	
+19:59:17: pos ::::	LVector2(619, 410)	
+19:59:17: pos ::::	LVector2(620, 410)	
+19:59:17: pos ::::	LVector2(621, 410)	
+19:59:17: pos ::::	LVector2(622, 410)	
+19:59:17: pos ::::	LVector2(623, 410)	
+19:59:17: pos ::::	LVector2(624, 410)	
+19:59:17: pos ::::	LVector2(625, 410)	
+19:59:17: pos ::::	LVector2(626, 410)	
+19:59:17: pos ::::	LVector2(627, 410)	
+19:59:17: pos ::::	LVector2(628, 410)	
+19:59:17: pos ::::	LVector2(629, 410)	
+19:59:17: pos ::::	LVector2(630, 410)	
+19:59:17: pos ::::	LVector2(631, 410)	
+19:59:17: pos ::::	LVector2(632, 410)	
+19:59:17: pos ::::	LVector2(633, 410)	
+19:59:17: pos ::::	LVector2(634, 410)	
+19:59:17: pos ::::	LVector2(635, 410)	
+19:59:17: pos ::::	LVector2(636, 410)	
+19:59:17: pos ::::	LVector2(637, 410)	
+19:59:17: pos ::::	LVector2(638, 410)	
+19:59:17: pos ::::	LVector2(639, 410)	
+19:59:17: pos ::::	LVector2(640, 410)	
+19:59:17: pos ::::	LVector2(641, 410)	
+19:59:17: pos ::::	LVector2(642, 410)	
+19:59:17: pos ::::	LVector2(643, 410)	
+19:59:17: pos ::::	LVector2(644, 410)	
+19:59:17: pos ::::	LVector2(645, 410)	
+19:59:17: pos ::::	LVector2(646, 410)	
+19:59:17: pos ::::	LVector2(647, 410)	
+19:59:17: pos ::::	LVector2(648, 410)	
+19:59:17: pos ::::	LVector2(649, 410)	
+19:59:17: pos ::::	LVector2(650, 410)	
+19:59:18: pos ::::	LVector2(651, 410)	
+19:59:18: pos ::::	LVector2(652, 410)	
+19:59:18: pos ::::	LVector2(653, 410)	
+19:59:18: pos ::::	LVector2(654, 410)	
+19:59:18: pos ::::	LVector2(655, 410)	
+19:59:18: pos ::::	LVector2(656, 410)	
+19:59:18: pos ::::	LVector2(657, 410)	
+19:59:18: pos ::::	LVector2(658, 410)	
+19:59:18: pos ::::	LVector2(659, 410)	
+19:59:18: pos ::::	LVector2(660, 410)	
+19:59:18: pos ::::	LVector2(661, 410)	
+19:59:18: pos ::::	LVector2(662, 410)	
+19:59:18: pos ::::	LVector2(663, 410)	
+19:59:18: pos ::::	LVector2(664, 410)	
+19:59:18: pos ::::	LVector2(665, 410)	
+19:59:18: pos ::::	LVector2(666, 410)	
+19:59:18: pos ::::	LVector2(667, 410)	
+19:59:18: pos ::::	LVector2(668, 410)	
+19:59:18: pos ::::	LVector2(669, 410)	
+19:59:18: pos ::::	LVector2(670, 410)	
+19:59:18: pos ::::	LVector2(671, 410)	
+19:59:18: pos ::::	LVector2(672, 410)	
+19:59:18: pos ::::	LVector2(673, 410)	
+19:59:18: pos ::::	LVector2(674, 410)	
+19:59:18: pos ::::	LVector2(675, 410)	
+19:59:18: pos ::::	LVector2(676, 410)	
+19:59:18: pos ::::	LVector2(677, 410)	
+19:59:18: pos ::::	LVector2(678, 410)	
+19:59:18: pos ::::	LVector2(679, 410)	
+19:59:18: pos ::::	LVector2(680, 410)	
+19:59:18: pos ::::	LVector2(681, 410)	
+19:59:18: pos ::::	LVector2(682, 410)	
+19:59:18: pos ::::	LVector2(683, 410)	
+19:59:18: pos ::::	LVector2(684, 410)	
+19:59:18: pos ::::	LVector2(685, 410)	
+19:59:18: pos ::::	LVector2(686, 410)	
+19:59:18: pos ::::	LVector2(687, 410)	
+19:59:18: pos ::::	LVector2(688, 410)	
+19:59:18: pos ::::	LVector2(689, 410)	
+19:59:18: pos ::::	LVector2(690, 410)	
+19:59:18: pos ::::	LVector2(691, 410)	
+19:59:18: pos ::::	LVector2(692, 410)	
+19:59:18: pos ::::	LVector2(693, 410)	
+19:59:18: pos ::::	LVector2(694, 410)	
+19:59:18: pos ::::	LVector2(695, 410)	
+19:59:18: pos ::::	LVector2(696, 410)	
+19:59:18: pos ::::	LVector2(697, 410)	
+19:59:18: pos ::::	LVector2(698, 410)	
+19:59:18: pos ::::	LVector2(699, 410)	
+19:59:18: pos ::::	LVector2(700, 410)	
+19:59:18: pos ::::	LVector2(701, 410)	
+19:59:18: pos ::::	LVector2(702, 410)	
+19:59:18: pos ::::	LVector2(703, 410)	
+19:59:18: pos ::::	LVector2(704, 410)	
+19:59:18: pos ::::	LVector2(705, 410)	
+19:59:18: pos ::::	LVector2(706, 410)	
+19:59:18: pos ::::	LVector2(707, 410)	
+19:59:18: pos ::::	LVector2(708, 410)	
+19:59:18: pos ::::	LVector2(709, 410)	
+19:59:19: pos ::::	LVector2(710, 410)	
+19:59:19: pos ::::	LVector2(711, 410)	
+19:59:19: pos ::::	LVector2(712, 410)	
+19:59:19: pos ::::	LVector2(713, 410)	
+19:59:19: pos ::::	LVector2(714, 410)	
+19:59:19: pos ::::	LVector2(715, 410)	
+19:59:19: pos ::::	LVector2(716, 410)	
+19:59:19: pos ::::	LVector2(717, 410)	
+19:59:19: pos ::::	LVector2(718, 410)	
+19:59:19: pos ::::	LVector2(719, 410)	
+19:59:19: pos ::::	LVector2(720, 410)	
+19:59:19: pos ::::	LVector2(721, 410)	
+19:59:19: pos ::::	LVector2(722, 410)	
+19:59:19: pos ::::	LVector2(723, 410)	
+19:59:19: pos ::::	LVector2(724, 410)	
+19:59:19: pos ::::	LVector2(725, 410)	
+19:59:19: pos ::::	LVector2(726, 410)	
+19:59:19: pos ::::	LVector2(727, 410)	
+19:59:19: pos ::::	LVector2(728, 410)	
+19:59:19: pos ::::	LVector2(729, 410)	
+19:59:19: pos ::::	LVector2(730, 410)	
+19:59:19: pos ::::	LVector2(731, 410)	
+19:59:19: pos ::::	LVector2(732, 410)	
+19:59:19: pos ::::	LVector2(733, 410)	
+19:59:19: pos ::::	LVector2(734, 410)	
+19:59:19: pos ::::	LVector2(735, 410)	
+19:59:19: pos ::::	LVector2(736, 410)	
+19:59:19: pos ::::	LVector2(737, 410)	
+19:59:19: pos ::::	LVector2(738, 410)	
+19:59:19: pos ::::	LVector2(739, 410)	
+19:59:19: pos ::::	LVector2(740, 410)	
+19:59:19: pos ::::	LVector2(741, 410)	
+19:59:19: pos ::::	LVector2(742, 410)	
+19:59:19: pos ::::	LVector2(743, 410)	
+19:59:19: pos ::::	LVector2(744, 410)	
+19:59:19: pos ::::	LVector2(745, 410)	
+19:59:19: pos ::::	LVector2(746, 410)	
+19:59:19: pos ::::	LVector2(747, 410)	
+19:59:19: pos ::::	LVector2(748, 410)	
+19:59:19: pos ::::	LVector2(749, 410)	
+19:59:19: pos ::::	LVector2(750, 410)	
+19:59:19: pos ::::	LVector2(751, 410)	
+19:59:19: pos ::::	LVector2(752, 410)	
+19:59:19: pos ::::	LVector2(753, 410)	
+19:59:19: pos ::::	LVector2(754, 410)	
+19:59:19: pos ::::	LVector2(755, 410)	
+19:59:19: pos ::::	LVector2(756, 410)	
+19:59:19: pos ::::	LVector2(757, 410)	
+19:59:19: pos ::::	LVector2(758, 410)	
+19:59:19: pos ::::	LVector2(759, 410)	
+19:59:19: pos ::::	LVector2(760, 410)	
+19:59:19: pos ::::	LVector2(761, 410)	
+19:59:19: pos ::::	LVector2(762, 410)	
+19:59:19: pos ::::	LVector2(763, 410)	
+19:59:19: pos ::::	LVector2(764, 410)	
+19:59:19: pos ::::	LVector2(765, 410)	
+19:59:19: pos ::::	LVector2(766, 410)	
+19:59:19: pos ::::	LVector2(767, 410)	
+19:59:19: pos ::::	LVector2(768, 410)	
+19:59:19: pos ::::	LVector2(769, 410)	
+19:59:20: pos ::::	LVector2(770, 410)	
+19:59:20: pos ::::	LVector2(771, 410)	
+19:59:20: pos ::::	LVector2(772, 410)	
+19:59:20: pos ::::	LVector2(773, 410)	
+19:59:20: pos ::::	LVector2(774, 410)	
+19:59:20: pos ::::	LVector2(775, 410)	
+19:59:20: pos ::::	LVector2(776, 410)	
+19:59:20: pos ::::	LVector2(777, 410)	
+19:59:20: pos ::::	LVector2(778, 410)	
+19:59:20: pos ::::	LVector2(779, 410)	
+19:59:20: pos ::::	LVector2(780, 410)	
+19:59:20: pos ::::	LVector2(781, 410)	
+19:59:20: pos ::::	LVector2(782, 410)	
+19:59:20: pos ::::	LVector2(783, 410)	
+19:59:20: pos ::::	LVector2(784, 410)	
+19:59:20: pos ::::	LVector2(785, 410)	
+19:59:20: pos ::::	LVector2(786, 410)	
+19:59:20: pos ::::	LVector2(787, 410)	
+19:59:20: pos ::::	LVector2(788, 410)	
+19:59:20: pos ::::	LVector2(789, 410)	
+19:59:20: pos ::::	LVector2(790, 410)	
+19:59:20: pos ::::	LVector2(791, 410)	
+19:59:20: pos ::::	LVector2(792, 410)	
+19:59:20: pos ::::	LVector2(793, 410)	
+19:59:20: pos ::::	LVector2(794, 410)	
+19:59:20: pos ::::	LVector2(795, 410)	
+19:59:20: pos ::::	LVector2(796, 410)	
+19:59:20: pos ::::	LVector2(797, 410)	
+19:59:20: pos ::::	LVector2(798, 410)	
+19:59:20: pos ::::	LVector2(799, 410)	
+19:59:20: pos ::::	LVector2(800, 410)	
+19:59:20: pos ::::	LVector2(801, 410)	
+19:59:20: pos ::::	LVector2(802, 410)	
+19:59:20: pos ::::	LVector2(803, 410)	
+19:59:20: pos ::::	LVector2(804, 410)	
+19:59:20: pos ::::	LVector2(805, 410)	
+19:59:20: pos ::::	LVector2(806, 410)	
+19:59:20: pos ::::	LVector2(807, 410)	
+19:59:20: pos ::::	LVector2(808, 410)	
+19:59:20: pos ::::	LVector2(809, 410)	
+19:59:20: pos ::::	LVector2(810, 410)	
+19:59:20: pos ::::	LVector2(811, 410)	
+19:59:20: pos ::::	LVector2(812, 410)	
+19:59:20: pos ::::	LVector2(813, 410)	
+19:59:20: pos ::::	LVector2(814, 410)	
+19:59:20: pos ::::	LVector2(815, 410)	
+19:59:20: pos ::::	LVector2(816, 410)	
+19:59:20: pos ::::	LVector2(817, 410)	
+19:59:20: pos ::::	LVector2(818, 410)	
+19:59:20: pos ::::	LVector2(819, 410)	
+19:59:20: pos ::::	LVector2(820, 410)	
+19:59:20: pos ::::	LVector2(821, 410)	
+19:59:20: pos ::::	LVector2(822, 410)	
+19:59:20: pos ::::	LVector2(823, 410)	
+19:59:20: pos ::::	LVector2(824, 410)	
+19:59:20: pos ::::	LVector2(825, 410)	
+19:59:20: pos ::::	LVector2(826, 410)	
+19:59:20: pos ::::	LVector2(827, 410)	
+19:59:20: pos ::::	LVector2(828, 410)	
+19:59:20: pos ::::	LVector2(829, 410)	
+19:59:20: pos ::::	LVector2(830, 410)	
+19:59:21: pos ::::	LVector2(831, 410)	
+19:59:21: pos ::::	LVector2(832, 410)	
+19:59:21: pos ::::	LVector2(833, 410)	
+19:59:21: pos ::::	LVector2(834, 410)	
+19:59:21: pos ::::	LVector2(835, 410)	
+19:59:21: pos ::::	LVector2(836, 410)	
+19:59:21: pos ::::	LVector2(837, 410)	
+19:59:21: pos ::::	LVector2(838, 410)	
+19:59:21: pos ::::	LVector2(839, 410)	
+19:59:21: pos ::::	LVector2(840, 410)	
+19:59:21: pos ::::	LVector2(841, 410)	
+19:59:21: pos ::::	LVector2(842, 410)	
+19:59:21: pos ::::	LVector2(843, 410)	
+19:59:21: pos ::::	LVector2(844, 410)	
+19:59:21: pos ::::	LVector2(845, 410)	
+19:59:21: pos ::::	LVector2(846, 410)	
+19:59:21: pos ::::	LVector2(847, 410)	
+19:59:21: pos ::::	LVector2(848, 410)	
+19:59:21: pos ::::	LVector2(849, 410)	
+19:59:21: pos ::::	LVector2(850, 410)	
+19:59:21: pos ::::	LVector2(851, 410)	
+19:59:21: pos ::::	LVector2(852, 410)	
+19:59:21: pos ::::	LVector2(853, 410)	
+19:59:21: pos ::::	LVector2(854, 410)	
+19:59:21: pos ::::	LVector2(855, 410)	
+19:59:21: pos ::::	LVector2(856, 410)	
+19:59:21: pos ::::	LVector2(857, 410)	
+19:59:21: pos ::::	LVector2(858, 410)	
+19:59:21: pos ::::	LVector2(859, 410)	
+19:59:21: pos ::::	LVector2(860, 410)	
+19:59:21: pos ::::	LVector2(861, 410)	
+19:59:21: pos ::::	LVector2(862, 410)	
+19:59:21: pos ::::	LVector2(863, 410)	
+19:59:21: pos ::::	LVector2(864, 410)	
+19:59:21: pos ::::	LVector2(865, 410)	
+19:59:21: pos ::::	LVector2(866, 410)	
+19:59:21: pos ::::	LVector2(867, 410)	
+19:59:21: pos ::::	LVector2(868, 410)	
+19:59:21: pos ::::	LVector2(869, 410)	
+19:59:21: pos ::::	LVector2(870, 410)	
+19:59:21: pos ::::	LVector2(871, 410)	
+19:59:21: pos ::::	LVector2(872, 410)	
+19:59:21: pos ::::	LVector2(873, 410)	
+19:59:21: pos ::::	LVector2(874, 410)	
+19:59:21: pos ::::	LVector2(875, 410)	
+19:59:21: pos ::::	LVector2(876, 410)	
+19:59:21: pos ::::	LVector2(877, 410)	
+19:59:21: pos ::::	LVector2(878, 410)	
+19:59:21: pos ::::	LVector2(879, 410)	
+19:59:21: pos ::::	LVector2(880, 410)	
+19:59:21: pos ::::	LVector2(881, 410)	
+19:59:21: pos ::::	LVector2(882, 410)	
+19:59:21: pos ::::	LVector2(883, 410)	
+19:59:21: pos ::::	LVector2(884, 410)	
+19:59:21: pos ::::	LVector2(885, 410)	
+19:59:21: pos ::::	LVector2(886, 410)	
+19:59:21: pos ::::	LVector2(887, 410)	
+19:59:21: pos ::::	LVector2(888, 410)	
+19:59:21: pos ::::	LVector2(889, 410)	
+19:59:21: pos ::::	LVector2(890, 410)	
+19:59:22: pos ::::	LVector2(891, 410)	
+19:59:22: pos ::::	LVector2(892, 410)	
+19:59:22: pos ::::	LVector2(893, 410)	
+19:59:22: pos ::::	LVector2(894, 410)	
+19:59:22: pos ::::	LVector2(895, 410)	
+19:59:22: pos ::::	LVector2(896, 410)	
+19:59:22: pos ::::	LVector2(897, 410)	
+19:59:22: pos ::::	LVector2(898, 410)	
+19:59:22: pos ::::	LVector2(899, 410)	
+19:59:22: pos ::::	LVector2(900, 410)	
+19:59:22: pos ::::	LVector2(901, 410)	
+19:59:22: pos ::::	LVector2(902, 410)	
+19:59:22: pos ::::	LVector2(903, 410)	
+19:59:22: pos ::::	LVector2(904, 410)	
+19:59:22: pos ::::	LVector2(905, 410)	
+19:59:22: pos ::::	LVector2(906, 410)	
+19:59:22: pos ::::	LVector2(907, 410)	
+19:59:22: pos ::::	LVector2(908, 410)	
+19:59:22: pos ::::	LVector2(909, 410)	
+19:59:22: pos ::::	LVector2(910, 410)	
+19:59:22: pos ::::	LVector2(911, 410)	
+19:59:22: pos ::::	LVector2(912, 410)	
+19:59:22: pos ::::	LVector2(913, 410)	
+19:59:22: pos ::::	LVector2(914, 410)	
+19:59:22: pos ::::	LVector2(915, 410)	
+19:59:22: pos ::::	LVector2(916, 410)	
+19:59:22: pos ::::	LVector2(917, 410)	
+19:59:22: pos ::::	LVector2(918, 410)	
+19:59:22: pos ::::	LVector2(919, 410)	
+19:59:22: pos ::::	LVector2(920, 410)	
+19:59:22: pos ::::	LVector2(921, 410)	
+19:59:22: pos ::::	LVector2(922, 410)	
+19:59:22: pos ::::	LVector2(923, 410)	
+19:59:22: pos ::::	LVector2(924, 410)	
+19:59:22: pos ::::	LVector2(925, 410)	
+19:59:22: pos ::::	LVector2(926, 410)	
+19:59:22: pos ::::	LVector2(927, 410)	
+19:59:22: pos ::::	LVector2(928, 410)	
+19:59:22: pos ::::	LVector2(929, 410)	
+19:59:22: pos ::::	LVector2(930, 410)	
+19:59:22: pos ::::	LVector2(931, 410)	
+19:59:22: pos ::::	LVector2(932, 410)	
+19:59:22: pos ::::	LVector2(933, 410)	
+19:59:22: pos ::::	LVector2(934, 410)	
+19:59:22: pos ::::	LVector2(935, 410)	
+19:59:22: pos ::::	LVector2(936, 410)	
+19:59:22: pos ::::	LVector2(937, 410)	
+19:59:22: pos ::::	LVector2(938, 410)	
+19:59:22: pos ::::	LVector2(939, 410)	
+19:59:22: pos ::::	LVector2(940, 410)	
+19:59:22: pos ::::	LVector2(941, 410)	
+19:59:22: pos ::::	LVector2(942, 410)	
+19:59:22: pos ::::	LVector2(943, 410)	
+19:59:22: pos ::::	LVector2(944, 410)	
+19:59:22: pos ::::	LVector2(945, 410)	
+19:59:22: pos ::::	LVector2(946, 410)	
+19:59:22: pos ::::	LVector2(947, 410)	
+19:59:22: pos ::::	LVector2(948, 410)	
+19:59:22: pos ::::	LVector2(949, 410)	
+19:59:22: pos ::::	LVector2(950, 410)	
+19:59:23: pos ::::	LVector2(951, 410)	
+19:59:23: pos ::::	LVector2(952, 410)	
+19:59:23: pos ::::	LVector2(953, 410)	
+19:59:23: pos ::::	LVector2(954, 410)	
+19:59:23: pos ::::	LVector2(955, 410)	
+19:59:23: pos ::::	LVector2(956, 410)	
+19:59:23: pos ::::	LVector2(957, 410)	
+19:59:23: pos ::::	LVector2(958, 410)	
+19:59:23: pos ::::	LVector2(959, 410)	
+19:59:23: pos ::::	LVector2(960, 410)	
+19:59:23: pos ::::	LVector2(961, 410)	
+19:59:23: pos ::::	LVector2(962, 410)	
+19:59:23: pos ::::	LVector2(963, 410)	
+19:59:23: pos ::::	LVector2(964, 410)	
+19:59:23: pos ::::	LVector2(965, 410)	
+19:59:23: pos ::::	LVector2(966, 410)	
+19:59:23: pos ::::	LVector2(967, 410)	
+19:59:23: pos ::::	LVector2(968, 410)	
+19:59:23: pos ::::	LVector2(969, 410)	
+19:59:23: pos ::::	LVector2(970, 410)	
+19:59:23: pos ::::	LVector2(971, 410)	
+19:59:23: pos ::::	LVector2(972, 410)	
+19:59:23: pos ::::	LVector2(973, 410)	
+19:59:23: pos ::::	LVector2(974, 410)	
+19:59:23: pos ::::	LVector2(975, 410)	
+19:59:23: pos ::::	LVector2(976, 410)	
+19:59:23: pos ::::	LVector2(977, 410)	
+19:59:23: pos ::::	LVector2(978, 410)	
+19:59:23: pos ::::	LVector2(979, 410)	
+19:59:23: pos ::::	LVector2(980, 410)	
+19:59:23: pos ::::	LVector2(981, 410)	
+19:59:23: pos ::::	LVector2(982, 410)	
+19:59:23: pos ::::	LVector2(983, 410)	
+19:59:23: pos ::::	LVector2(984, 410)	
+19:59:23: pos ::::	LVector2(985, 410)	
+19:59:23: pos ::::	LVector2(986, 410)	
+19:59:23: pos ::::	LVector2(987, 410)	
+19:59:23: pos ::::	LVector2(988, 410)	
+19:59:23: pos ::::	LVector2(989, 410)	
+19:59:23: pos ::::	LVector2(990, 410)	
+19:59:23: pos ::::	LVector2(991, 410)	
+19:59:23: pos ::::	LVector2(992, 410)	
+19:59:23: pos ::::	LVector2(993, 410)	
+19:59:23: pos ::::	LVector2(994, 410)	
+19:59:23: pos ::::	LVector2(995, 410)	
+19:59:23: pos ::::	LVector2(996, 410)	
+19:59:23: pos ::::	LVector2(997, 410)	
+19:59:23: pos ::::	LVector2(998, 410)	
+19:59:23: pos ::::	LVector2(999, 410)	
+19:59:23: pos ::::	LVector2(1000, 410)	
+19:59:23: pos ::::	LVector2(1001, 410)	
+19:59:23: pos ::::	LVector2(1002, 410)	
+19:59:23: pos ::::	LVector2(1003, 410)	
+19:59:23: pos ::::	LVector2(1004, 410)	
+19:59:23: pos ::::	LVector2(1005, 410)	
+19:59:23: pos ::::	LVector2(1006, 410)	
+19:59:23: pos ::::	LVector2(1007, 410)	
+19:59:23: pos ::::	LVector2(1008, 410)	
+19:59:23: pos ::::	LVector2(1009, 410)	
+19:59:23: pos ::::	LVector2(1010, 410)	
+19:59:24: pos ::::	LVector2(1011, 410)	
+19:59:24: pos ::::	LVector2(1012, 410)	
+19:59:24: pos ::::	LVector2(1013, 410)	
+19:59:24: pos ::::	LVector2(1014, 410)	
+19:59:24: pos ::::	LVector2(1015, 410)	
+19:59:24: pos ::::	LVector2(1016, 410)	
+19:59:24: pos ::::	LVector2(1017, 410)	
+19:59:24: pos ::::	LVector2(1018, 410)	
+19:59:24: pos ::::	LVector2(1019, 410)	
+19:59:24: pos ::::	LVector2(1020, 410)	
+19:59:24: pos ::::	LVector2(1021, 410)	
+19:59:24: pos ::::	LVector2(1022, 410)	
+19:59:24: pos ::::	LVector2(1023, 410)	
+19:59:24: pos ::::	LVector2(1024, 410)	
+19:59:24: pos ::::	LVector2(1025, 410)	
+19:59:24: pos ::::	LVector2(1026, 410)	
+19:59:24: pos ::::	LVector2(1027, 410)	
+19:59:24: pos ::::	LVector2(1028, 410)	
+19:59:24: pos ::::	LVector2(1029, 410)	
+19:59:24: pos ::::	LVector2(1030, 410)	
+19:59:24: pos ::::	LVector2(1031, 410)	
+19:59:24: pos ::::	LVector2(1032, 410)	
+19:59:24: pos ::::	LVector2(1033, 410)	
+19:59:24: pos ::::	LVector2(1034, 410)	
+19:59:24: pos ::::	LVector2(1035, 410)	
+19:59:24: pos ::::	LVector2(1036, 410)	
+19:59:24: pos ::::	LVector2(1037, 410)	
+19:59:24: pos ::::	LVector2(1038, 410)	
+19:59:24: pos ::::	LVector2(1039, 410)	
+19:59:24: pos ::::	LVector2(1040, 410)	
+19:59:24: pos ::::	LVector2(1041, 410)	
+19:59:24: pos ::::	LVector2(1042, 410)	
+19:59:24: pos ::::	LVector2(1043, 410)	
+19:59:24: pos ::::	LVector2(1044, 410)	
+19:59:24: pos ::::	LVector2(1045, 410)	
+19:59:24: pos ::::	LVector2(1046, 410)	
+19:59:24: pos ::::	LVector2(1047, 410)	
+19:59:24: pos ::::	LVector2(1048, 410)	
+19:59:24: pos ::::	LVector2(1049, 410)	
+19:59:24: pos ::::	LVector2(1050, 410)	
+19:59:24: pos ::::	LVector2(1051, 410)	
+19:59:24: pos ::::	LVector2(1052, 410)	
+19:59:24: pos ::::	LVector2(1053, 410)	
+19:59:24: pos ::::	LVector2(1054, 410)	
+19:59:24: pos ::::	LVector2(1055, 410)	
+19:59:24: pos ::::	LVector2(1056, 410)	
+19:59:24: pos ::::	LVector2(1057, 410)	
+19:59:24: pos ::::	LVector2(1058, 410)	
+19:59:24: pos ::::	LVector2(1059, 410)	
+19:59:24: pos ::::	LVector2(1060, 410)	
+19:59:24: pos ::::	LVector2(1061, 410)	
+19:59:24: pos ::::	LVector2(1062, 410)	
+19:59:24: pos ::::	LVector2(1063, 410)	
+19:59:24: pos ::::	LVector2(1064, 410)	
+19:59:24: pos ::::	LVector2(1065, 410)	
+19:59:24: pos ::::	LVector2(1066, 410)	
+19:59:24: pos ::::	LVector2(1067, 410)	
+19:59:24: pos ::::	LVector2(1068, 410)	
+19:59:24: pos ::::	LVector2(1069, 410)	
+19:59:25: pos ::::	LVector2(1070, 410)	
+19:59:25: pos ::::	LVector2(1071, 410)	
+19:59:25: pos ::::	LVector2(1072, 410)	
+19:59:25: pos ::::	LVector2(1073, 410)	
+19:59:25: pos ::::	LVector2(1074, 410)	
+19:59:25: pos ::::	LVector2(1075, 410)	
+19:59:25: pos ::::	LVector2(1076, 410)	
+19:59:25: pos ::::	LVector2(1077, 410)	
+19:59:25: pos ::::	LVector2(1078, 410)	
+19:59:25: pos ::::	LVector2(1079, 410)	
+19:59:25: pos ::::	LVector2(1080, 410)	
+19:59:25: pos ::::	LVector2(1081, 410)	
+19:59:25: pos ::::	LVector2(1082, 410)	
+19:59:25: pos ::::	LVector2(1083, 410)	
+19:59:25: pos ::::	LVector2(1084, 410)	
+19:59:25: pos ::::	LVector2(1085, 410)	
+19:59:25: pos ::::	LVector2(1086, 410)	
+19:59:25: pos ::::	LVector2(1087, 410)	
+19:59:25: pos ::::	LVector2(1088, 410)	
+19:59:25: pos ::::	LVector2(1089, 410)	
+19:59:25: pos ::::	LVector2(1090, 410)	
+19:59:25: pos ::::	LVector2(1091, 410)	
+19:59:25: pos ::::	LVector2(1092, 410)	
+19:59:25: pos ::::	LVector2(1093, 410)	
+19:59:25: pos ::::	LVector2(1094, 410)	
+19:59:25: pos ::::	LVector2(1095, 410)	
+19:59:25: pos ::::	LVector2(1096, 410)	
+19:59:25: pos ::::	LVector2(1097, 410)	
+19:59:25: pos ::::	LVector2(1098, 410)	
+19:59:25: pos ::::	LVector2(1099, 410)	
+19:59:25: pos ::::	LVector2(1100, 410)	
+19:59:25: pos ::::	LVector2(1101, 410)	
+19:59:25: pos ::::	LVector2(1102, 410)	
+19:59:25: pos ::::	LVector2(1103, 410)	
+19:59:25: pos ::::	LVector2(1104, 410)	
+19:59:25: pos ::::	LVector2(1105, 410)	
+19:59:25: pos ::::	LVector2(1106, 410)	
+19:59:25: pos ::::	LVector2(1107, 410)	
+19:59:25: pos ::::	LVector2(1108, 410)	
+19:59:25: pos ::::	LVector2(1109, 410)	
+19:59:25: pos ::::	LVector2(1110, 410)	
+19:59:25: pos ::::	LVector2(1111, 410)	
+19:59:25: pos ::::	LVector2(1112, 410)	
+19:59:25: pos ::::	LVector2(1113, 410)	
+19:59:25: pos ::::	LVector2(1114, 410)	
+19:59:25: pos ::::	LVector2(1115, 410)	
+19:59:25: pos ::::	LVector2(1116, 410)	
+19:59:25: pos ::::	LVector2(1117, 410)	
+19:59:25: pos ::::	LVector2(1118, 410)	
+19:59:25: pos ::::	LVector2(1119, 410)	
+19:59:25: pos ::::	LVector2(1120, 410)	
+19:59:25: pos ::::	LVector2(1121, 410)	
+19:59:25: pos ::::	LVector2(1122, 410)	
+19:59:25: pos ::::	LVector2(1123, 410)	
+19:59:25: pos ::::	LVector2(1124, 410)	
+19:59:25: pos ::::	LVector2(1125, 410)	
+19:59:25: pos ::::	LVector2(1126, 410)	
+19:59:25: pos ::::	LVector2(1127, 410)	
+19:59:25: pos ::::	LVector2(1128, 410)	
+19:59:25: pos ::::	LVector2(1129, 410)	
+19:59:26: pos ::::	LVector2(1130, 410)	
+19:59:26: pos ::::	LVector2(1131, 410)	
+19:59:26: pos ::::	LVector2(1132, 410)	
+19:59:26: pos ::::	LVector2(1133, 410)	
+19:59:26: pos ::::	LVector2(1134, 410)	
+19:59:26: pos ::::	LVector2(1135, 410)	
+19:59:26: pos ::::	LVector2(1136, 410)	
+19:59:26: pos ::::	LVector2(1137, 410)	
+19:59:26: pos ::::	LVector2(1138, 410)	
+19:59:26: pos ::::	LVector2(1139, 410)	
+19:59:26: pos ::::	LVector2(1140, 410)	
+19:59:26: pos ::::	LVector2(1141, 410)	
+19:59:26: pos ::::	LVector2(1142, 410)	
+19:59:26: pos ::::	LVector2(1143, 410)	
+19:59:26: pos ::::	LVector2(1144, 410)	
+19:59:26: pos ::::	LVector2(1145, 410)	
+19:59:26: pos ::::	LVector2(1146, 410)	
+19:59:26: pos ::::	LVector2(1147, 410)	
+19:59:26: pos ::::	LVector2(1148, 410)	
+19:59:26: pos ::::	LVector2(1149, 410)	
+19:59:26: pos ::::	LVector2(1150, 410)	
+19:59:26: pos ::::	LVector2(1151, 410)	
+19:59:26: pos ::::	LVector2(1152, 410)	
+19:59:26: pos ::::	LVector2(1153, 410)	
+19:59:26: pos ::::	LVector2(1154, 410)	
+19:59:26: pos ::::	LVector2(1155, 410)	
+19:59:26: pos ::::	LVector2(1156, 410)	
+19:59:26: pos ::::	LVector2(1157, 410)	
+19:59:26: pos ::::	LVector2(1158, 410)	
+19:59:26: pos ::::	LVector2(1159, 410)	
+19:59:26: pos ::::	LVector2(1160, 410)	
+19:59:26: pos ::::	LVector2(1161, 410)	
+19:59:26: pos ::::	LVector2(1162, 410)	
+19:59:26: pos ::::	LVector2(1163, 410)	
+19:59:26: pos ::::	LVector2(1164, 410)	
+19:59:26: pos ::::	LVector2(1165, 410)	
+19:59:26: pos ::::	LVector2(1166, 410)	
+19:59:26: pos ::::	LVector2(1167, 410)	
+19:59:26: pos ::::	LVector2(1168, 410)	
+19:59:26: pos ::::	LVector2(1169, 410)	
+19:59:26: pos ::::	LVector2(1170, 410)	
+19:59:26: pos ::::	LVector2(1171, 410)	
+19:59:26: pos ::::	LVector2(1172, 410)	
+19:59:26: pos ::::	LVector2(1173, 410)	
+19:59:26: pos ::::	LVector2(1174, 410)	
+19:59:26: pos ::::	LVector2(1175, 410)	
+19:59:26: pos ::::	LVector2(1176, 410)	
+19:59:26: pos ::::	LVector2(1177, 410)	
+19:59:26: pos ::::	LVector2(1178, 410)	
+19:59:26: pos ::::	LVector2(1179, 410)	
+19:59:26: pos ::::	LVector2(1180, 410)	
+19:59:26: pos ::::	LVector2(1181, 410)	
+19:59:26: pos ::::	LVector2(1182, 410)	
+19:59:26: pos ::::	LVector2(1183, 410)	
+19:59:26: pos ::::	LVector2(1184, 410)	
+19:59:26: pos ::::	LVector2(1185, 410)	
+19:59:26: pos ::::	LVector2(1186, 410)	
+19:59:26: pos ::::	LVector2(1187, 410)	
+19:59:26: pos ::::	LVector2(1188, 410)	
+19:59:26: pos ::::	LVector2(1189, 410)	
+19:59:27: pos ::::	LVector2(1190, 410)	
+19:59:27: pos ::::	LVector2(1191, 410)	
+19:59:27: pos ::::	LVector2(1192, 410)	
+19:59:27: pos ::::	LVector2(1193, 410)	
+19:59:27: pos ::::	LVector2(1194, 410)	
+19:59:27: pos ::::	LVector2(1195, 410)	
+19:59:27: pos ::::	LVector2(1196, 410)	
+19:59:27: pos ::::	LVector2(1197, 410)	
+19:59:27: pos ::::	LVector2(1198, 410)	
+19:59:27: pos ::::	LVector2(1199, 410)	
+19:59:27: pos ::::	LVector2(1200, 410)	
+19:59:27: pos ::::	LVector2(1201, 410)	
+19:59:27: pos ::::	LVector2(1202, 410)	
+19:59:27: pos ::::	LVector2(1203, 410)	
+19:59:27: pos ::::	LVector2(1204, 410)	
+19:59:27: pos ::::	LVector2(1205, 410)	
+19:59:27: pos ::::	LVector2(1206, 410)	
+19:59:27: pos ::::	LVector2(1207, 410)	
+19:59:27: pos ::::	LVector2(1208, 410)	
+19:59:27: pos ::::	LVector2(1209, 410)	
+19:59:27: pos ::::	LVector2(1210, 410)	
+19:59:27: pos ::::	LVector2(1211, 410)	
+19:59:27: pos ::::	LVector2(1212, 410)	
+19:59:27: pos ::::	LVector2(1213, 410)	
+19:59:27: pos ::::	LVector2(1214, 410)	
+19:59:27: pos ::::	LVector2(1215, 410)	
+19:59:27: pos ::::	LVector2(1216, 410)	
+19:59:27: pos ::::	LVector2(1217, 410)	
+19:59:27: pos ::::	LVector2(1218, 410)	
+19:59:27: pos ::::	LVector2(1219, 410)	
+19:59:27: pos ::::	LVector2(1220, 410)	
+19:59:27: pos ::::	LVector2(1221, 410)	
+19:59:27: pos ::::	LVector2(1222, 410)	
+19:59:27: pos ::::	LVector2(1223, 410)	
+19:59:27: pos ::::	LVector2(1224, 410)	
+19:59:27: pos ::::	LVector2(1225, 410)	
+19:59:27: pos ::::	LVector2(1226, 410)	
+19:59:27: pos ::::	LVector2(1227, 410)	
+19:59:27: pos ::::	LVector2(1228, 410)	
+19:59:27: pos ::::	LVector2(1229, 410)	
+19:59:27: pos ::::	LVector2(1230, 410)	
+19:59:27: pos ::::	LVector2(1231, 410)	
+19:59:27: pos ::::	LVector2(1232, 410)	
+19:59:27: pos ::::	LVector2(1233, 410)	
+19:59:27: pos ::::	LVector2(1234, 410)	
+19:59:27: pos ::::	LVector2(1235, 410)	
+19:59:27: pos ::::	LVector2(1236, 410)	
+19:59:27: pos ::::	LVector2(1237, 410)	
+19:59:27: pos ::::	LVector2(1238, 410)	
+19:59:27: pos ::::	LVector2(1239, 410)	
+19:59:27: pos ::::	LVector2(1240, 410)	
+19:59:27: pos ::::	LVector2(1241, 410)	
+19:59:27: pos ::::	LVector2(1242, 410)	
+19:59:27: pos ::::	LVector2(1243, 410)	
+19:59:27: pos ::::	LVector2(1244, 410)	
+19:59:27: pos ::::	LVector2(1245, 410)	
+19:59:27: pos ::::	LVector2(1246, 410)	
+19:59:27: pos ::::	LVector2(1247, 410)	
+19:59:27: pos ::::	LVector2(1248, 410)	
+19:59:27: pos ::::	LVector2(1249, 410)	
+19:59:28: pos ::::	LVector2(1250, 410)	
+19:59:28: pos ::::	LVector2(1251, 410)	
+19:59:28: pos ::::	LVector2(1252, 410)	
+19:59:28: pos ::::	LVector2(1253, 410)	
+19:59:28: pos ::::	LVector2(1254, 410)	
+19:59:28: pos ::::	LVector2(1255, 410)	
+19:59:28: pos ::::	LVector2(1256, 410)	
+19:59:28: pos ::::	LVector2(1257, 410)	
+19:59:28: pos ::::	LVector2(1258, 410)	
+19:59:28: pos ::::	LVector2(1259, 410)	
+19:59:28: pos ::::	LVector2(1260, 410)	
+19:59:28: pos ::::	LVector2(1261, 410)	
+19:59:28: pos ::::	LVector2(1262, 410)	
+19:59:28: pos ::::	LVector2(1263, 410)	
+19:59:28: pos ::::	LVector2(1264, 410)	
+19:59:28: pos ::::	LVector2(1265, 410)	
+19:59:28: pos ::::	LVector2(1266, 410)	
+19:59:28: pos ::::	LVector2(1267, 410)	
+19:59:28: pos ::::	LVector2(1268, 410)	
+19:59:28: pos ::::	LVector2(1269, 410)	
+19:59:28: pos ::::	LVector2(1270, 410)	
+19:59:28: pos ::::	LVector2(1271, 410)	
+19:59:28: pos ::::	LVector2(1272, 410)	
+19:59:28: pos ::::	LVector2(1273, 410)	
+19:59:28: pos ::::	LVector2(1274, 410)	
+19:59:28: pos ::::	LVector2(1275, 410)	
+19:59:28: pos ::::	LVector2(1276, 410)	
+19:59:28: pos ::::	LVector2(1277, 410)	
+19:59:28: pos ::::	LVector2(1278, 410)	
+19:59:28: pos ::::	LVector2(1279, 410)	
+19:59:28: pos ::::	LVector2(1280, 410)	
+19:59:28: pos ::::	LVector2(1281, 410)	
+19:59:28: pos ::::	LVector2(1282, 410)	
+19:59:28: pos ::::	LVector2(1283, 410)	
+19:59:28: pos ::::	LVector2(1284, 410)	
+19:59:28: pos ::::	LVector2(1285, 410)	
+19:59:28: Unregistering ResourceManager for type Font
+19:59:28: Average FPS: 457.432
+Average time: 	2.18612 ms
+Best time: 	0.525 ms
+Worst time: 	4760.12 ms
+19:59:28: DefaultWorkQueue('Root') shutting down on thread main.
+19:59:28: *-*-* OGRE Shutdown
+19:59:28: Unregistering ResourceManager for type OldSkeleton
+19:59:28: Unregistering ResourceManager for type Mesh
+19:59:28: Unregistering ResourceManager for type HighLevelGpuProgram
+19:59:28: Uninstalling plugin: ParticleFX
+19:59:28: Plugin successfully uninstalled
+19:59:28: Unloading library .\Plugin_ParticleFX.dll
+19:59:28: Uninstalling plugin: GL RenderSystem
+19:59:28: Render Target '' 
+19:59:28: Unregistering ResourceManager for type GpuProgram
+19:59:28: *** Stopping Win32GL Subsystem ***
+19:59:28: Unregistering ResourceManager for type Texture
+19:59:28: Plugin successfully uninstalled
+19:59:28: Unloading library .\RenderSystem_GL
+19:59:28: Unregistering ResourceManager for type Material
