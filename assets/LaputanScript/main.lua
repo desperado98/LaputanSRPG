@@ -53,10 +53,10 @@ function __LaputanMain()
 	-- 스프라이트 택스쳐는 이 방법을 써야 게임 객체에서 쓰일 수 있다.
 --	Laputan.gPreloadSpriteManager:load({ "panel","beam" ,"monkey" })
 	Laputan.gPreloadSpriteManager:load(
-	{ "monkey" , "i_effect_rain_front","button2",
+	{ "monkey" , "i_effect_rain_front","button2","beam",
           "planet_1","planet_2","planet_3","planet_4","planet_8","planet_9",
-	  "test_number", "panel" ,"test_rect", "explosionPack" , "explosion1",
-          "test_number"})
+	  "test_number", "panel" ,"test_rect", "explosionPack" , "explosion1"
+        })
 
 	
 	-- 매쉬에 쓰일 텍스쳐를 미리 로드한다. 만약 미리 로드 안하면 텍스쳐가 사용될때 로드 된다.
@@ -91,7 +91,7 @@ function __LaputanMain()
 
 --===========================================================================================================
         
-        
+        --[[
         local fogMonkeyGo = Laputan.gRootObject:createChild()
 	fogMonkeyGo:setPosition(0,410)
 	fogMonkeyGo:createSpriteQuad()
@@ -117,14 +117,14 @@ function __LaputanMain()
 	end
 
         local threadHandle = Laputan.createThread(threadTable.run)
-        
+        --]]
 
         
       
 
 	-- 메세지 박스를 뛰운다
 	--Laputan.messageBox(Laputan.LOG_NORMAL,"game Start")
-
+--[[
 	test_LLinkedList()
 	
         
@@ -133,8 +133,8 @@ function __LaputanMain()
 	test_showList()
 
 
-	test_backgroundSound()
-	test_effectSound()
+	--test_backgroundSound()
+	--test_effectSound()
 	
 	test_manyMonkey()
 
@@ -172,17 +172,18 @@ function __LaputanMain()
 	test_microThread()        
 	test_spriteParticle()
 
-      --[[
+   
         -- 레이어만 보기 위해 다른 게임 객체들은 모두 제거함 (추가로 마이크로 쓰레드 , 콜백함수 제거)
         Laputan.gRootObject:clear()
         Laputan.killThreadAll()
         Laputan.clearCallBackFunc()
 	Laputan.setEnableFixedTickFunctionEnd(false)
-
+   
         test_layer()
 
-       
-        --]]
+       --]]
+        
+        test_QxEffectMgr()
 
 
 	print()
@@ -191,6 +192,6 @@ end
 
 
 function __LaputanFixedTickFunctionEnd()
-	gSortParentGo:sortChild(Laputan.COORDINATES_Y,true,false)
+	--gSortParentGo:sortChild(Laputan.COORDINATES_Y,true,false)
 end
 
