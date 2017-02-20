@@ -33,8 +33,8 @@
             <RegionRect/>
         </FrameDivideOneTextureLoadingData>
         <FrameDivideOneTextureLoadingData>
-            <ID>black</ID>
-            <Path>black.png</Path>
+            <ID>white</ID>
+            <Path>white.png</Path>
             <FrameTotalCount>1</FrameTotalCount>
             <FrameHorizonCount>1</FrameHorizonCount>
             <RegionRect/>

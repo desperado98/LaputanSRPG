@@ -8,8 +8,8 @@
 
 function __LaputanMain()
 	-- 참고로 모든 변수나 함수는 Laputan 혹은 __Laputan 으로 시작하는 이름으로 쓰지 말것 엔진 내부용으로 쓰인다        
-        
-	-- 콘솔창에 메세지를 뿌린다
+      
+        -- 콘솔창에 메세지를 뿌린다
 	print("@@  __LaputanMain start  @@ ")
 	print()
      
@@ -184,7 +184,8 @@ function __LaputanMain()
        --]]
         
         test_QxEffectMgr()
-
+        
+        initGameQuadMap(nil,256,256,50)
 
 	print()
 	print("@@  __LaputanMain end  @@")
