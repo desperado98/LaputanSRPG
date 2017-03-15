@@ -856,3 +856,129 @@ function test_layer()
     
 
 end
+
+function test_win32Gui()
+    
+    local window = Laputan.Win32.createWindow("test",0,0,700,400)
+
+    local button = window:createButton(10,10,100,30,"Test Btn")
+    button:registerFuncOnClick(function() print("Win32 Button Click") end)
+
+    local edit = window:createEditBox(10,40,100,25,true,"myEdit Text")
+
+    local editArg={}
+    editArg._edit = edit
+    function editArg:onClick()             
+        print(editArg._edit:getText()) 
+    end
+
+    edit:registerFuncOnEnterKey(editArg.onClick)
+
+    local checkBox = window:createCheckBox(10,70,100,25,"MyCheck")
+    local checkBoxArg = {}
+    checkBoxArg._checkBox = checkBox
+    function checkBoxArg:onClick()
+        print("checkBox",checkBoxArg._checkBox:isChecked())    
+    end
+    checkBox:registerFuncOnClick(checkBoxArg.onClick)        
+
+    local radioArg = {
+        Laputan.Win32.LRadioButtonArg(240,10,150,150,"radio group"),
+        Laputan.Win32.LRadioButtonArg(250,30,100,25,"radio 1"),
+        Laputan.Win32.LRadioButtonArg(250,55,100,25,"radio 2"),
+        Laputan.Win32.LRadioButtonArg(250,80,100,25,"radio 3") 
+    }
+
+    local radioGroup = window:createRadioButton(true,radioArg)
+    print("radioGroup",radioGroup)
+    local radioGroupArg = {}
+    radioGroupArg._radioGroup = radioGroup
+    function radioGroupArg:onClick()
+        print("radioGroup Select",radioGroupArg._radioGroup:getSelectedText())
+    end
+    radioGroup:registerFuncOnClick(radioGroupArg.onClick)
+
+    local listBox = window:createListBox(10,100,200,150,false)
+    listBox:insert(0,"aaaa")
+    listBox:insert(0,"bbbb")
+    listBox:insert(0,"cccc")
+    listBox:insert(0,"dddd")
+    listBox:insert(0,"eeee")
+
+    listBox:pushBack("kkkk")
+    listBox:select("bbbb")
+    listBox:select(-1)
+    listBox:erase("cccc")
+    listBox:erase(0)
+
+    local listBoxArg = {}
+    listBoxArg._listBox = listBox
+    function listBoxArg:onClick()
+        print("listBox Select",listBoxArg._listBox:getSelectedIndex(),listBoxArg._listBox:getSelectedText())
+    end
+    listBox:registerFuncOnClick(listBoxArg.onClick)
+
+
+    local comboBox = window:createComboBox(10,270,200,200,false)
+    comboBox:insert(0,"aaaa")
+    comboBox:insert(0,"bbbb")
+    comboBox:insert(0,"cccc")
+    comboBox:insert(0,"dddd")
+    comboBox:insert(0,"eeee")
+
+    comboBox:pushBack("kkkk")
+    comboBox:select("bbbb")
+    comboBox:erase("cccc")
+    comboBox:erase(0)
+--    comboBox:select(-1)
+
+
+    local comboBoxArg = {}
+    comboBoxArg._comboBox = comboBox
+    function comboBoxArg:onClick()
+        print("comboBox Select",comboBoxArg._comboBox:getSelectedIndex(),comboBoxArg._comboBox:getSelectedText())
+    end
+    comboBox:registerFuncOnClick(comboBoxArg.onClick)
+
+    local scrollBarH = window:createScrollBar(10,300,200,25,false)
+    scrollBarH:setRange(0,20)
+    scrollBarH:setPosition(0)
+    
+    local scrollBarHArg = {}
+    scrollBarHArg._scrollBarH = scrollBarH
+    function scrollBarHArg:onClick()
+        print("scrollBarH Select",scrollBarHArg._scrollBarH:getPosition())
+    end
+    scrollBarH:registerFuncOnClick(scrollBarHArg.onClick)
+
+    ------
+    local scrollBarV = window:createScrollBar(250,170,25,150,true)
+    scrollBarV:setRange(0,20)
+    scrollBarV:setPosition(0)
+    
+    local scrollBarVArg = {}
+    scrollBarVArg._scrollBarV = scrollBarV
+    function scrollBarVArg:onClick()
+        print("scrollBarV Select",scrollBarVArg._scrollBarV:getPosition())
+    end
+    scrollBarV:registerFuncOnClick(scrollBarVArg.onClick)
+    
+    local staticText1 = window:createStaticText(280,170,100,25,"MyStatic1")
+  
+    local staticText2 = window:createStaticText(280,200,100,25,"MyStatic2")
+    staticText2:setText("ziii")
+    print("staticText1",staticText1:getText())
+
+    local progress = window:createProgress(280,300,100,25)
+    progress:setRange(0,100)
+    progress:setPosition(90)
+
+    local openFilePath =Laputan.Win32.openFileDialogBox("C:\\", {"MyText|*.txt","All|*.*"})
+    print("openFilePath",openFilePath)
+    local saveFilePath =Laputan.Win32.saveFileDialogBox("C:\\", "mySave.tee")
+    print("saveFilePath",saveFilePath)
+ 
+end
+
+
+

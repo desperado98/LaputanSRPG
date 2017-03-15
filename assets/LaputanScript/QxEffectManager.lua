@@ -8,7 +8,7 @@ end
 
 function initQxEffectManager()
     gQxEffectMgr = {} 
-    gQxEffectMgr._rootGo = Laputan.gRootObject
+    gQxEffectMgr._rootGo = Laputan.gRootObject:createChild()
     
     function gQxEffectMgr:setRootGameObject(go)
         gQxEffectMgr._rootGo = go

@@ -53,7 +53,7 @@ function __LaputanMain()
 	-- 스프라이트 택스쳐는 이 방법을 써야 게임 객체에서 쓰일 수 있다.
 --	Laputan.gPreloadSpriteManager:load({ "panel","beam" ,"monkey" })
 	Laputan.gPreloadSpriteManager:load(
-	{ "monkey" , "i_effect_rain_front","button2","beam",
+	{ "monkey" , "i_effect_rain_front","button2","beam","white",
           "planet_1","planet_2","planet_3","planet_4","planet_8","planet_9",
 	  "test_number", "panel" ,"test_rect", "explosionPack" , "explosion1"
         })
@@ -124,7 +124,8 @@ function __LaputanMain()
 
 	-- 메세지 박스를 뛰운다
 	--Laputan.messageBox(Laputan.LOG_NORMAL,"game Start")
---[[
+        
+        --[[
 	test_LLinkedList()
 	
         
@@ -172,7 +173,9 @@ function __LaputanMain()
 	test_microThread()        
 	test_spriteParticle()
 
-   
+        --]]
+
+   --[[
         -- 레이어만 보기 위해 다른 게임 객체들은 모두 제거함 (추가로 마이크로 쓰레드 , 콜백함수 제거)
         Laputan.gRootObject:clear()
         Laputan.killThreadAll()
@@ -180,12 +183,20 @@ function __LaputanMain()
 	Laputan.setEnableFixedTickFunctionEnd(false)
    
         test_layer()
+--]]
 
-       --]]
+        test_win32Gui()
         
         test_QxEffectMgr()
         
-        initGameQuadMap(nil,256,256,50)
+        initGameQuadMap(nil,32,32,50)
+
+     
+
+
+
+
+
 
 	print()
 	print("@@  __LaputanMain end  @@")
