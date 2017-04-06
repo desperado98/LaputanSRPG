@@ -46,7 +46,7 @@ function initQxEffectManager()
 
             fragmentGo:setPosition( position )
             fragmentGo:pushMoveLinear(toVector2(dir), timeSecond, true)
-            fragmentGo:destroy(timeSecond*60)
+            fragmentGo:destroy(timeSecond)
             
             fragmentGo:pushRotation(720,timeSecond,true)
             
@@ -84,8 +84,7 @@ function initQxEffectManager()
                 explositionGo:setPosition(myPos)
                 explositionGo:setScaleXY( math.random(2, 5) )
                 explositionGo:setSpriteFiltering(Laputan.TEXTURE_FILTERING_BILINEAR)
-                local destroyTick = math.floor(60 * explositionGo:getSpriteTime())
-                explositionGo:destroy(destroyTick)
+                explositionGo:destroy(explositionGo:getSpriteTime())
                 
                 handle._tbGo[index+1] = explositionGo
 
@@ -109,7 +108,7 @@ function initQxEffectManager()
         go:setSpriteTexture(spriteId,Laputan.SPRITE_ORIGIN_MIDDLE_MIDDLE)                
         go:setPosition(startPos)
         go:pushMoveLinear(endPos, timeSecond, false)
-        go:destroy( timeSecond * 60 )
+        go:destroy( timeSecond )
 
         handle._tbGo[1] = go
         return handle
@@ -132,6 +131,6 @@ function test_QxEffectMgr()
         gQxEffectMgr:explosionFragment( Laputan.LVector2(500,300), 500, 1, 10,{"button2","panel","beam"} )    
     end
 
-    Laputan.registerCallBackFunc(30,MyExplosion)
+    Laputan.registerCallBackFunc(0.5,MyExplosion)
 
 end

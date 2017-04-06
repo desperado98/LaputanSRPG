@@ -11,54 +11,54 @@ function callbackKeyEvent(virtualKey, up)
 
     local controlGo = gMeshRazor
     if virtualKey == Laputan.L_VK_Y then
-            -- 정지된 사운드를 다시 플레이한다.
-            Laputan.gAudioManager:play2DEffect(gSoundEffectForControl)
+    -- 정지된 사운드를 다시 플레이한다.
+		Laputan.gAudioManager:play2DEffect(gSoundEffectForControl)
     elseif virtualKey == Laputan.L_VK_U then
-            -- 사운드를 멈춘다.
-            Laputan.gAudioManager:pauseEffect(gSoundEffectForControl)
+		-- 사운드를 멈춘다.
+        Laputan.gAudioManager:pauseEffect(gSoundEffectForControl)
     elseif virtualKey == Laputan.L_VK_Q then
-            gMeshGo2Child:blendMeshMainAnimation("Idle")
+        gMeshGo2Child:blendMeshMainAnimation("Idle")
     elseif virtualKey == Laputan.L_VK_W then
-            gMeshGo2Child:blendMeshMainAnimation("Walk")
+        gMeshGo2Child:blendMeshMainAnimation("Walk")
     elseif virtualKey == Laputan.L_VK_E then
-            gMeshGo2Child:blendMeshMainAnimation("Slump")
+        gMeshGo2Child:blendMeshMainAnimation("Slump")
     elseif virtualKey == Laputan.L_VK_R then
-            gMeshGo2Child:blendMeshMainAnimation("Shoot")
+        gMeshGo2Child:blendMeshMainAnimation("Shoot")
     elseif virtualKey == Laputan.L_VK_T then
-            gMeshGo2Child:blendMeshMainAnimation("Die",Laputan.ANIMATION_BLEND_FADEINOUT,0.5,false)	
+        gMeshGo2Child:blendMeshMainAnimation("Die",Laputan.ANIMATION_BLEND_FADEINOUT,0.5,false)	
     elseif virtualKey == Laputan.L_VK_LEFT then
-            local pos = controlGo:getPositionXY()
-            pos.x = pos.x - 30 
-            controlGo:setPosition(pos)
-            Laputan.gAudioManager:play2DEffect("ball.wav")
+        local pos = controlGo:getPositionXY()
+        pos.x = pos.x - 30 
+        controlGo:setPosition(pos)
+        Laputan.gAudioManager:play2DEffect("ball.wav")
 
     elseif virtualKey == Laputan.L_VK_RIGHT then
-            if(up == false) then
-                local pos = controlGo:getPositionXY()
-                pos.x = pos.x + 30 
-                controlGo:setPosition(pos)
-                Laputan.gAudioManager:play2DEffect("ball.wav")
-            end
+        if(up == false) then
+            local pos = controlGo:getPositionXY()
+            pos.x = pos.x + 30 
+            controlGo:setPosition(pos)
+            Laputan.gAudioManager:play2DEffect("ball.wav")
+        end
 
     elseif virtualKey == Laputan.L_VK_UP then
-            local pos = controlGo:getPositionXY()
-            pos.y = pos.y - 30 
-            controlGo:setPosition(pos)
-            Laputan.gAudioManager:play2DEffect("ball.wav")
+        local pos = controlGo:getPositionXY()
+        pos.y = pos.y - 30 
+        controlGo:setPosition(pos)
+        Laputan.gAudioManager:play2DEffect("ball.wav")
 
     elseif virtualKey == Laputan.L_VK_DOWN then
-            local pos = controlGo:getPositionXY()
-            pos.y = pos.y + 30 
-            controlGo:setPosition(pos)
-            Laputan.gAudioManager:play2DEffect("ball.wav")
+        local pos = controlGo:getPositionXY()
+        pos.y = pos.y + 30 
+        controlGo:setPosition(pos)
+        Laputan.gAudioManager:play2DEffect("ball.wav")
     elseif virtualKey == Laputan.L_VK_L then
-            Laputan.gAudioManager:play2DEffect("nice_music.ogg")
+        Laputan.gAudioManager:play2DEffect("nice_music.ogg")
     elseif virtualKey == Laputan.L_VK_I then
-            controlGo:pitch(45)
+        controlGo:pitch(45)
     elseif virtualKey == Laputan.L_VK_O then
-            controlGo:yaw(45)
+        controlGo:yaw(45)
     elseif virtualKey == Laputan.L_VK_P then
-            controlGo:roll(45)		
+        controlGo:roll(45)		
     end
 
     Laputan.printLog(Laputan.LOG_CRITICAL,"virtual key : " .. virtualKey .. "  " .. state)
@@ -581,6 +581,7 @@ function test_spriteCollection()
             25, Laputan.LVector2(1,1), "monkey", Laputan.SPRITE_ORIGIN_LEFT_TOP,3,
             Laputan.LColor(1,1,0,1))
 
+			
     -- 추가된 게임 객체는 추가될때 필터링 효과는 반영되지 않기에 
     -- 필요하다면 콜랙션 객체에서 
     collectionGo:setSpriteFiltering(Laputan.TEXTURE_FILTERING_NONE)
@@ -713,14 +714,14 @@ function test_sortAndDestroy()
     sortChildGo2:createSpriteQuad()
     sortChildGo2:setSpriteTexture("monkey",Laputan.SPRITE_ORIGIN_LEFT_BOTTOM)
     -- 60틱 (1초) 후 파괴
-    sortChildGo2:destroy(180)
+    sortChildGo2:destroy(3)
 
     local sortChildGo3 = gSortParentGo:createChild()
     sortChildGo3:setPosition(100,500)
     sortChildGo3:createSpriteQuad()
     sortChildGo3:setSpriteTexture("monkey",Laputan.SPRITE_ORIGIN_LEFT_BOTTOM)
     -- 120 틱 (2초) 후 파괴
-    sortChildGo3:destroy(240)
+    sortChildGo3:destroy(4)
 
     -- __LaputanFixedTickFunctionEnd 함수에서 sort 시킨다
 end
@@ -840,15 +841,15 @@ function test_layer()
     end
 
     -- 같은 부모를 가진 게임 객체의 이동
-    local node1 = Laputan.registerCallBackFunc(150,arg.func1)
+    local node1 = Laputan.registerCallBackFunc(2.5,arg.func1)
     -- 부모가 다른 게임 객체의 이동일 경우 레이어 이동에 따른 좌표계가 변한다
 
     -- (옮기는 부모의 좌표계를 따라가기에 절대 좌표는 변하게된다)
-    local node2 = Laputan.registerCallBackFunc(300,arg.func2)
+    local node2 = Laputan.registerCallBackFunc(5,arg.func2)
     
-    local node3 = Laputan.registerCallBackFunc(450,arg.func3)
+    local node3 = Laputan.registerCallBackFunc(7.5,arg.func3)
     -- 원래 부모로 돌아감
-    local node3 = Laputan.registerCallBackFunc(600,arg.func4)
+    local node3 = Laputan.registerCallBackFunc(10,arg.func4)
 
 
     --Laputan.unregisterCallBackFunc(node)
@@ -898,7 +899,7 @@ function test_win32Gui()
     end
     radioGroup:registerFuncOnClick(radioGroupArg.onClick)
 
-    local listBox = window:createListBox(10,100,200,150,false)
+    local listBox = window:createListBox(10,100,200,150,false,false)
     listBox:insert(0,"aaaa")
     listBox:insert(0,"bbbb")
     listBox:insert(0,"cccc")
